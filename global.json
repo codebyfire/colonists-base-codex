@@ -1,0 +1,15 @@
+{
+  "syncCheckInterval": 1000,
+  "maxPathToFlagLength": 20,
+  "treeStumpLifetime": 480.0,
+  "maxUnsupportedBridgeLength": 8,
+  "maxBridgeSupportHeight": 40,
+  "roadPathHeightLeewayNeeded": 8,
+  "trackHeightLeewayNeeded": 12,
+  "aiHardModeBaseBoost": 0.25,
+  "resourceProjectileConversionDict": {
+    "ARROWS": 0,
+    "CANNONBALLS": 1
+  },
+  "militaryBuildingMinimumDistanceFixedAmount": 8.0
+}

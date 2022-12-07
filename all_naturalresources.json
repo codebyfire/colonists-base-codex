@@ -1,0 +1,54 @@
+{
+  "naturalResources": [
+    {
+      "typeId": 0,
+      "outputItemTypeId": 5,
+      "maxAmount": 10,
+      "heightLeeway": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 1,
+      "outputItemTypeId": 20,
+      "maxAmount": 10,
+      "heightLeeway": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 2,
+      "outputItemTypeId": 14,
+      "maxAmount": 10,
+      "heightLeeway": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 3,
+      "outputItemTypeId": 26,
+      "maxAmount": 10,
+      "heightLeeway": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 4,
+      "outputItemTypeId": 38,
+      "maxAmount": 10,
+      "heightLeeway": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 5,
+      "outputItemTypeId": 33,
+      "maxAmount": 10,
+      "heightLeeway": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 6,
+      "outputItemTypeId": 35,
+      "maxAmount": 10,
+      "heightLeeway": 8,
+      "componentInfos": []
+    }
+  ],
+  "disabledNaturalResourceIds": []
+}

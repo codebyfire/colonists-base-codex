@@ -1,0 +1,200 @@
+{
+  "resources": [
+    {
+      "typeId": 3,
+      "category": 13,
+      "componentInfos": []
+    },
+    {
+      "typeId": 2,
+      "category": 13,
+      "componentInfos": []
+    },
+    {
+      "typeId": 5,
+      "category": 13,
+      "componentInfos": []
+    },
+    {
+      "typeId": 6,
+      "category": 0,
+      "componentInfos": []
+    },
+    {
+      "typeId": 7,
+      "category": 2,
+      "componentInfos": []
+    },
+    {
+      "typeId": 32,
+      "category": 255,
+      "componentInfos": []
+    },
+    {
+      "typeId": 8,
+      "category": 13,
+      "componentInfos": []
+    },
+    {
+      "typeId": 9,
+      "category": 16,
+      "componentInfos": []
+    },
+    {
+      "typeId": 10,
+      "category": 16,
+      "componentInfos": []
+    },
+    {
+      "typeId": 11,
+      "category": 3,
+      "componentInfos": []
+    },
+    {
+      "typeId": 12,
+      "category": 1,
+      "componentInfos": []
+    },
+    {
+      "typeId": 13,
+      "category": 7,
+      "componentInfos": []
+    },
+    {
+      "typeId": 16,
+      "category": 2,
+      "componentInfos": []
+    },
+    {
+      "typeId": 18,
+      "category": 17,
+      "componentInfos": []
+    },
+    {
+      "typeId": 19,
+      "category": 17,
+      "componentInfos": []
+    },
+    {
+      "typeId": 20,
+      "category": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 14,
+      "category": 7,
+      "componentInfos": []
+    },
+    {
+      "typeId": 24,
+      "category": 17,
+      "componentInfos": []
+    },
+    {
+      "typeId": 25,
+      "category": 17,
+      "componentInfos": []
+    },
+    {
+      "typeId": 26,
+      "category": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 27,
+      "category": 12,
+      "componentInfos": []
+    },
+    {
+      "typeId": 29,
+      "category": 12,
+      "componentInfos": []
+    },
+    {
+      "typeId": 30,
+      "category": 17,
+      "componentInfos": []
+    },
+    {
+      "typeId": 33,
+      "category": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 34,
+      "category": 13,
+      "componentInfos": []
+    },
+    {
+      "typeId": 35,
+      "category": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 36,
+      "category": 17,
+      "componentInfos": []
+    },
+    {
+      "typeId": 38,
+      "category": 8,
+      "componentInfos": []
+    },
+    {
+      "typeId": 40,
+      "category": 4,
+      "componentInfos": []
+    },
+    {
+      "typeId": 0,
+      "category": 16,
+      "componentInfos": []
+    },
+    {
+      "typeId": 1,
+      "category": 4,
+      "componentInfos": []
+    },
+    {
+      "typeId": 42,
+      "category": 17,
+      "componentInfos": []
+    },
+    {
+      "typeId": 43,
+      "category": 14,
+      "componentInfos": []
+    },
+    {
+      "typeId": 45,
+      "category": 14,
+      "componentInfos": []
+    },
+    {
+      "typeId": 46,
+      "category": 14,
+      "componentInfos": []
+    },
+    {
+      "typeId": 47,
+      "category": 2,
+      "componentInfos": []
+    },
+    {
+      "typeId": 48,
+      "category": 16,
+      "componentInfos": []
+    },
+    {
+      "typeId": 49,
+      "category": 16,
+      "componentInfos": []
+    },
+    {
+      "typeId": 50,
+      "category": 3,
+      "componentInfos": []
+    }
+  ],
+  "disabledResourceIds": []
+}

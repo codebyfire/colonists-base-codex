@@ -1,0 +1,21 @@
+{
+  "category": 0,
+  "growthTime": -1.0,
+  "initGrowth": 0.0,
+  "maxSubPositionOffset": 0.3,
+  "minScale": 0.9,
+  "maxScale": 1.1,
+  "minPlantScale": 1.0,
+  "maxPlantScale": 1.0,
+  "can360Rotate": true,
+  "canHaveSubLoc": true,
+  "occupierType": 2,
+  "baseOffsets": [],
+  "isPerpendicular": false,
+  "validTerrainTypes": [],
+  "plantTimeFactor": 1.0,
+  "heightLeeway": -1,
+  "isMapEditorPlaceable": false,
+  "typeId": 19,
+  "componentInfos": []
+}

@@ -1,0 +1,40 @@
+{
+  "landRoutes": [
+    {
+      "typeId": 0,
+      "routeType": 0,
+      "speedMultiplier": 0.7,
+      "componentInfos": []
+    },
+    {
+      "typeId": 1,
+      "routeType": 1,
+      "speedMultiplier": 0.7,
+      "componentInfos": []
+    },
+    {
+      "typeId": 2,
+      "routeType": 0,
+      "speedMultiplier": 1.05,
+      "componentInfos": []
+    },
+    {
+      "typeId": 3,
+      "routeType": 1,
+      "speedMultiplier": 1.05,
+      "componentInfos": []
+    },
+    {
+      "typeId": 4,
+      "routeType": 0,
+      "speedMultiplier": 1.4,
+      "componentInfos": []
+    },
+    {
+      "typeId": 5,
+      "routeType": 1,
+      "speedMultiplier": 1.4,
+      "componentInfos": []
+    }
+  ]
+}

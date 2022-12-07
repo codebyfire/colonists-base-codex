@@ -1,0 +1,32 @@
+{
+  "typeId": 52,
+  "category": 0,
+  "researchBuildingAges": [
+    {
+      "buildingTypeId": 39,
+      "age": 0
+    }
+  ],
+  "requirements": [],
+  "costs": [
+    {
+      "itemTypeId": 5,
+      "quantity": 10
+    }
+  ],
+  "researchTime": 90.0,
+  "isAvailable": true,
+  "isPreResearched": false,
+  "gridPos": {
+    "x": -2,
+    "y": -1
+  },
+  "gridLines": [
+    {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 0
+    }
+  ]
+}

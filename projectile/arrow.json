@@ -1,0 +1,13 @@
+{
+  "speed": 0.01,
+  "damage": 10,
+  "typeId": 0,
+  "componentInfos": [
+    {
+      "$type": "EntityDirectLocomotorDataInfo, Game",
+      "speed": 0.16,
+      "accelerationFactor": 1.0,
+      "typeId": 8
+    }
+  ]
+}

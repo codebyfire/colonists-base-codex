@@ -1,0 +1,68 @@
+{
+  "category": 2,
+  "growthTime": -1.0,
+  "initGrowth": 0.0,
+  "maxSubPositionOffset": 0.0,
+  "minScale": 0.9,
+  "maxScale": 1.1,
+  "minPlantScale": 1.0,
+  "maxPlantScale": 1.0,
+  "can360Rotate": false,
+  "canHaveSubLoc": false,
+  "occupierType": 3,
+  "baseOffsets": [
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 1
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    }
+  ],
+  "isPerpendicular": false,
+  "validTerrainTypes": [],
+  "plantTimeFactor": 1.0,
+  "heightLeeway": -1,
+  "isMapEditorPlaceable": true,
+  "typeId": 44,
+  "componentInfos": []
+}

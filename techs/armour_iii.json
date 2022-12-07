@@ -1,0 +1,49 @@
+{
+  "damageReductionFactor": 0.6,
+  "typeId": 32,
+  "category": 1,
+  "researchBuildingAges": [
+    {
+      "buildingTypeId": 39,
+      "age": 2
+    }
+  ],
+  "requirements": [
+    {
+      "type": 6,
+      "compareType": 0,
+      "targetId": 31,
+      "matchIdHash": null,
+      "amount": 0
+    }
+  ],
+  "costs": [
+    {
+      "itemTypeId": 34,
+      "quantity": 20
+    },
+    {
+      "itemTypeId": 30,
+      "quantity": 20
+    },
+    {
+      "itemTypeId": 42,
+      "quantity": 30
+    }
+  ],
+  "researchTime": 450.0,
+  "isAvailable": true,
+  "isPreResearched": false,
+  "gridPos": {
+    "x": 0,
+    "y": 0
+  },
+  "gridLines": [
+    {
+      "x": -6,
+      "y": 0,
+      "width": 5,
+      "height": 0
+    }
+  ]
+}

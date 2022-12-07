@@ -1,0 +1,9 @@
+{
+  "engineId": 0,
+  "hopperId": 0,
+  "amountOfHoppers": 3,
+  "defaultMaximumDockedLength": 20.0,
+  "requirements": [],
+  "typeId": 0,
+  "componentInfos": []
+}

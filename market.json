@@ -1,0 +1,77 @@
+{
+  "itemInfoDict": {
+    "BOOKS": {
+      "startingPrice": 14.0
+    },
+    "CLAY": {
+      "startingPrice": 4.0
+    },
+    "COAL": {
+      "startingPrice": 4.0
+    },
+    "GLASS": {
+      "startingPrice": 18.0
+    },
+    "GOLD": {
+      "startingPrice": 8.0
+    },
+    "IRON": {
+      "startingPrice": 6.0
+    },
+    "IRON_ORE": {
+      "startingPrice": 4.0
+    },
+    "LOGS": {
+      "startingPrice": 0.2
+    },
+    "QUARTZ": {
+      "startingPrice": 8.0
+    },
+    "SALT": {
+      "startingPrice": 8.0
+    },
+    "STEEL": {
+      "startingPrice": 16.0
+    },
+    "STONE": {
+      "startingPrice": 1.0
+    },
+    "TOOLS": {
+      "startingPrice": 8.0
+    }
+  },
+  "defaultCommissionPercent": 0.5,
+  "reputationPerDollar": 0.25,
+  "reputationLevels": [
+    {
+      "reputation": 0,
+      "amount": 0,
+      "benefitDescrStr": "",
+      "tradeTerminalAllowanceIncrease": 0
+    },
+    {
+      "reputation": 1,
+      "amount": 100,
+      "benefitDescrStr": "TraderReputationReward",
+      "tradeTerminalAllowanceIncrease": 1
+    },
+    {
+      "reputation": 2,
+      "amount": 1100,
+      "benefitDescrStr": "TraderReputationReward",
+      "tradeTerminalAllowanceIncrease": 1
+    },
+    {
+      "reputation": 3,
+      "amount": 11100,
+      "benefitDescrStr": "TraderReputationReward",
+      "tradeTerminalAllowanceIncrease": 1
+    },
+    {
+      "reputation": 4,
+      "amount": 111100,
+      "benefitDescrStr": "TraderReputationReward",
+      "tradeTerminalAllowanceIncrease": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "animals": [
+    {
+      "$type": "SheepInfo, Game",
+      "typeId": 0,
+      "componentInfos": [
+        {
+          "$type": "EntityLocomotorDataInfo, Game",
+          "maxSpeed": 0.01,
+          "accelerationFactor": 1.0,
+          "typeId": 6
+        }
+      ]
+    },
+    {
+      "typeId": 2,
+      "componentInfos": [
+        {
+          "$type": "EntityLocomotorDataInfo, Game",
+          "maxSpeed": 0.01,
+          "accelerationFactor": 1.0,
+          "typeId": 6
+        }
+      ]
+    }
+  ],
+  "disabledAnimalIds": []
+}

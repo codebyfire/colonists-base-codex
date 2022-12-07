@@ -1,0 +1,63 @@
+{
+  "typeId": 51,
+  "category": 0,
+  "researchBuildingAges": [
+    {
+      "buildingTypeId": 39,
+      "age": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": 6,
+      "compareType": 0,
+      "targetId": 56,
+      "matchIdHash": null,
+      "amount": 0
+    },
+    {
+      "type": 6,
+      "compareType": 0,
+      "targetId": 55,
+      "matchIdHash": null,
+      "amount": 0
+    }
+  ],
+  "costs": [
+    {
+      "itemTypeId": 34,
+      "quantity": 20
+    },
+    {
+      "itemTypeId": 42,
+      "quantity": 20
+    }
+  ],
+  "researchTime": 300.0,
+  "isAvailable": true,
+  "isPreResearched": false,
+  "gridPos": {
+    "x": 3,
+    "y": 2
+  },
+  "gridLines": [
+    {
+      "x": 0,
+      "y": 5,
+      "width": 0,
+      "height": 6
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "width": 2,
+      "height": 0
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "width": 2,
+      "height": 0
+    }
+  ]
+}

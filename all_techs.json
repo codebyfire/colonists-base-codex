@@ -1,0 +1,2186 @@
+{
+  "techs": [
+    {
+      "$type": "SteamEngineTechInfo, Game",
+      "speedIncreaseMultiplier": 1.3,
+      "typeId": 116,
+      "category": 3,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 115,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 30,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "SteamEngineTechInfo, Game",
+      "speedIncreaseMultiplier": 1.0,
+      "typeId": 115,
+      "category": 3,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 24,
+          "quantity": 15
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "typeId": 66,
+      "category": 3,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 65,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 24,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 240.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "typeId": 65,
+      "category": 3,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 50,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 150.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ResearchSpeedTechInfo, Game",
+      "processReductionFactor": 0.5,
+      "typeId": 122,
+      "category": 8,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 121,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 40
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ResearchSpeedTechInfo, Game",
+      "processReductionFactor": 0.25,
+      "typeId": 121,
+      "category": 8,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 120,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 5,
+          "width": 5,
+          "height": 0
+        },
+        {
+          "x": 1,
+          "y": 5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ResearchSpeedTechInfo, Game",
+      "processReductionFactor": 0.1,
+      "typeId": 120,
+      "category": 8,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 5,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 180.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MiningTechInfo, Game",
+      "processReductionFactor": 0.0,
+      "typeId": 41,
+      "category": 6,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 40,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 5,
+          "quantity": 15
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 3
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 3,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MiningTechInfo, Game",
+      "processReductionFactor": 0.0,
+      "typeId": 40,
+      "category": 6,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 150.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 3
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 3,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MiningSpeedTechInfo, Game",
+      "processReductionFactor": 0.5,
+      "typeId": 45,
+      "category": 6,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 44,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 30,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -3
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -3,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MiningSpeedTechInfo, Game",
+      "processReductionFactor": 0.25,
+      "typeId": 44,
+      "category": 6,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 43,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -3
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -3,
+          "width": 5,
+          "height": 0
+        },
+        {
+          "x": 1,
+          "y": -3,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MiningSpeedTechInfo, Game",
+      "processReductionFactor": 0.1,
+      "typeId": 43,
+      "category": 6,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 5,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 180.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -3
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": -3,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MilitaryRepairTechInfo, Game",
+      "multiplier": 0.5,
+      "typeId": 37,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 36,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 34,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 30,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MilitaryRepairTechInfo, Game",
+      "multiplier": 0.3,
+      "typeId": 36,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 35,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 24,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        },
+        {
+          "x": 1,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "MilitaryRepairTechInfo, Game",
+      "multiplier": 0.2,
+      "typeId": 35,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 5,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 3,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 150.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "typeId": 76,
+      "category": 3,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 75,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 34,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 360.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "typeId": 75,
+      "category": 3,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 5,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 240.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "EngineeringTechInfo, Game",
+      "vehicleSpeedIncreaseMultiplier": 1.5,
+      "typeId": 72,
+      "category": 8,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 71,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 40
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 40
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "EngineeringTechInfo, Game",
+      "vehicleSpeedIncreaseMultiplier": 1.2,
+      "typeId": 71,
+      "category": 8,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "CoppicingTechInfo, Game",
+      "growthSpeedBonus": 0.5,
+      "typeId": 2,
+      "category": 4,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 1,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 2,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 600.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 4
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 4,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "CoppicingTechInfo, Game",
+      "growthSpeedBonus": 0.3,
+      "typeId": 1,
+      "category": 4,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 2,
+          "quantity": 15
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 15
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 4
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 4,
+          "width": 5,
+          "height": 0
+        },
+        {
+          "x": 1,
+          "y": 4,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "CoppicingTechInfo, Game",
+      "growthSpeedBonus": 0.15,
+      "typeId": 0,
+      "category": 4,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 2,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 150.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 4
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 4,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 59,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 57,
+          "matchIdHash": null,
+          "amount": 0
+        },
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 58,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 8,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 750.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 3,
+        "y": 2
+      },
+      "gridLines": [
+        {
+          "x": 0,
+          "y": 5,
+          "width": 0,
+          "height": 6
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "width": 2,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 58,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 51,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 30,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -2,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 2,
+          "width": 2,
+          "height": 0
+        },
+        {
+          "x": -4,
+          "y": 5,
+          "width": 1,
+          "height": 0
+        },
+        {
+          "x": -1,
+          "y": 5,
+          "width": 1,
+          "height": 0
+        },
+        {
+          "x": -4,
+          "y": 5,
+          "width": 0,
+          "height": 6
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 57,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 51,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 26,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -2,
+        "y": -1
+      },
+      "gridLines": [
+        {
+          "x": -1,
+          "y": -1,
+          "width": 1,
+          "height": 0
+        },
+        {
+          "x": -4,
+          "y": -1,
+          "width": 1,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 51,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 56,
+          "matchIdHash": null,
+          "amount": 0
+        },
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 55,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 34,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 3,
+        "y": 2
+      },
+      "gridLines": [
+        {
+          "x": 0,
+          "y": 5,
+          "width": 0,
+          "height": 6
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "width": 2,
+          "height": 0
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "width": 2,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 56,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 50,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 33,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 180.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -2,
+        "y": -1
+      },
+      "gridLines": [
+        {
+          "x": -1,
+          "y": -1,
+          "width": 1,
+          "height": 0
+        },
+        {
+          "x": -4,
+          "y": -1,
+          "width": 1,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 55,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 50,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 180.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -2,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 2,
+          "width": 2,
+          "height": 0
+        },
+        {
+          "x": -4,
+          "y": 5,
+          "width": 1,
+          "height": 0
+        },
+        {
+          "x": -1,
+          "y": 5,
+          "width": 1,
+          "height": 0
+        },
+        {
+          "x": -4,
+          "y": 5,
+          "width": 0,
+          "height": 6
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 50,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 52,
+          "matchIdHash": null,
+          "amount": 0
+        },
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 54,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 5,
+          "quantity": 15
+        },
+        {
+          "itemTypeId": 3,
+          "quantity": 15
+        }
+      ],
+      "researchTime": 180.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 3,
+        "y": 2
+      },
+      "gridLines": [
+        {
+          "x": 0,
+          "y": 5,
+          "width": 0,
+          "height": 6
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "width": 2,
+          "height": 0
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "width": 2,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 52,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 5,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 90.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -2,
+        "y": -1
+      },
+      "gridLines": [
+        {
+          "x": -1,
+          "y": -1,
+          "width": 1,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionTechInfo, Game",
+      "typeId": 54,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 90.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -2,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -1,
+          "y": 5,
+          "width": 1,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionSpeedTechInfo, Game",
+      "multiplier": 1.0,
+      "typeId": 7,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 6,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 30,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 360.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -6
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -6,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionSpeedTechInfo, Game",
+      "multiplier": 0.5,
+      "typeId": 6,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 5,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 34,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 270.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -6
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -6,
+          "width": 5,
+          "height": 0
+        },
+        {
+          "x": 1,
+          "y": -6,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ConstructionSpeedTechInfo, Game",
+      "multiplier": 0.2,
+      "typeId": 5,
+      "category": 0,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 5,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 180.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -6
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": -6,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "CannonballDamageTechInfo, Game",
+      "damageMultiplier": 2.0,
+      "typeId": 27,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 26,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 19,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 38,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 4,
+        "y": 5
+      },
+      "gridLines": null
+    },
+    {
+      "$type": "CannonballDamageTechInfo, Game",
+      "damageMultiplier": 1.5,
+      "typeId": 26,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 25,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 24,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 360.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 5,
+          "width": 3,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "CannonballDamageTechInfo, Game",
+      "damageMultiplier": 1.0,
+      "typeId": 25,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 24,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -4,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -3,
+          "y": 5,
+          "width": 3,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "BuildingProductionSpeedTechInfo, Game",
+      "buildingTypeId": 26,
+      "processReductionFactor": 0.5,
+      "typeId": 103,
+      "category": 8,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 102,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 40
+        },
+        {
+          "itemTypeId": 19,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 360.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "BuildingProductionSpeedTechInfo, Game",
+      "buildingTypeId": 0,
+      "processReductionFactor": 0.0,
+      "typeId": 102,
+      "category": 8,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 18,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": -5,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ArrowDamageTechInfo, Game",
+      "damageMultiplier": 2.0,
+      "typeId": 22,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 21,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 2,
+          "quantity": 50
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 4,
+        "y": 5
+      },
+      "gridLines": null
+    },
+    {
+      "$type": "ArrowDamageTechInfo, Game",
+      "damageMultiplier": 1.5,
+      "typeId": 21,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 20,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 2,
+          "quantity": 30
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 5,
+          "width": 3,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ArrowDamageTechInfo, Game",
+      "damageMultiplier": 1.0,
+      "typeId": 20,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 2,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 5,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 150.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -4,
+        "y": 5
+      },
+      "gridLines": [
+        {
+          "x": -3,
+          "y": 5,
+          "width": 3,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ArmourTechInfo, Game",
+      "damageReductionFactor": 0.6,
+      "typeId": 32,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 2
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 31,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 34,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 30,
+          "quantity": 20
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 30
+        }
+      ],
+      "researchTime": 450.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ArmourTechInfo, Game",
+      "damageReductionFactor": 0.4,
+      "typeId": 31,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 30,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 3,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 24,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 42,
+          "quantity": 20
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0
+      },
+      "gridLines": [
+        {
+          "x": -6,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "ArmourTechInfo, Game",
+      "damageReductionFactor": 0.2,
+      "typeId": 30,
+      "category": 1,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 0
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 5,
+          "quantity": 10
+        },
+        {
+          "itemTypeId": 3,
+          "quantity": 10
+        }
+      ],
+      "researchTime": 150.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0
+      },
+      "gridLines": [
+        {
+          "x": 1,
+          "y": 0,
+          "width": 5,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "AgricultureTechInfo, Game",
+      "typeId": 107,
+      "category": 4,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 110,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 25
+        }
+      ],
+      "researchTime": 360.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 3,
+        "y": -5
+      },
+      "gridLines": [
+        {
+          "x": 0,
+          "y": -5,
+          "width": 2,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "AgricultureTechInfo, Game",
+      "typeId": 105,
+      "category": 4,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": 6,
+          "compareType": 0,
+          "targetId": 110,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 25
+        }
+      ],
+      "researchTime": 300.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": 3,
+        "y": -1
+      },
+      "gridLines": [
+        {
+          "x": 0,
+          "y": -1,
+          "width": 2,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "$type": "AgricultureTechInfo, Game",
+      "typeId": 110,
+      "category": 4,
+      "researchBuildingAges": [
+        {
+          "buildingTypeId": 39,
+          "age": 1
+        }
+      ],
+      "requirements": [],
+      "costs": [
+        {
+          "itemTypeId": 42,
+          "quantity": 15
+        }
+      ],
+      "researchTime": 240.0,
+      "isAvailable": true,
+      "isPreResearched": false,
+      "gridPos": {
+        "x": -3,
+        "y": -3
+      },
+      "gridLines": [
+        {
+          "x": -2,
+          "y": -3,
+          "width": 2,
+          "height": 0
+        },
+        {
+          "x": 0,
+          "y": -1,
+          "width": 0,
+          "height": 4
+        }
+      ]
+    }
+  ],
+  "disabledTechIds": []
+}
