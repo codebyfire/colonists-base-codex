@@ -1,5 +1,6 @@
 {
   "heightOffset": 2,
+  "typeId": 0,
   "category": 0,
   "occupierType": 0,
   "baseOffsets": [
@@ -37,6 +38,5 @@
   "minimumNeighbours": 1,
   "canRotate": false,
   "animalTypeId": 255,
-  "typeId": 0,
   "componentInfos": []
 }

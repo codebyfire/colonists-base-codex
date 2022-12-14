@@ -4,6 +4,7 @@
   "harvestTileTime": 0.7,
   "unitSpeedFactor": 1.0,
   "plantTypeCount": 0,
+  "typeId": 1,
   "category": 0,
   "occupierType": 0,
   "baseOffsets": [
@@ -669,6 +670,5 @@
   "minimumNeighbours": 0,
   "canRotate": false,
   "animalTypeId": 255,
-  "typeId": 1,
   "componentInfos": []
 }

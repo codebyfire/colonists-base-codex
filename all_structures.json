@@ -4,6 +4,7 @@
       "$type": "TreeFieldInfo, Game",
       "treeGrowthTime": 0.0,
       "growthTime": 75.0,
+      "typeId": 9,
       "category": 0,
       "occupierType": 0,
       "baseOffsets": [
@@ -669,7 +670,6 @@
       "minimumNeighbours": 0,
       "canRotate": true,
       "animalTypeId": 255,
-      "typeId": 9,
       "componentInfos": [
         {
           "$type": "EntityStorageDataInfo, Game",
@@ -697,6 +697,7 @@
     },
     {
       "$type": "AnimalFieldInfo, Game",
+      "typeId": 4,
       "category": 1,
       "occupierType": 0,
       "baseOffsets": [
@@ -870,11 +871,11 @@
       "minimumNeighbours": 2,
       "canRotate": false,
       "animalTypeId": 2,
-      "typeId": 4,
       "componentInfos": []
     },
     {
       "$type": "OneWaySignInfo, Game",
+      "typeId": 8,
       "category": 0,
       "occupierType": 2,
       "baseOffsets": [
@@ -907,13 +908,13 @@
       "minimumNeighbours": 0,
       "canRotate": false,
       "animalTypeId": 255,
-      "typeId": 8,
       "componentInfos": []
     },
     {
       "$type": "TreeFieldInfo, Game",
       "treeGrowthTime": 0.0,
       "growthTime": 300.0,
+      "typeId": 7,
       "category": 0,
       "occupierType": 0,
       "baseOffsets": [
@@ -1087,11 +1088,11 @@
       "minimumNeighbours": 0,
       "canRotate": false,
       "animalTypeId": 255,
-      "typeId": 7,
       "componentInfos": []
     },
     {
       "$type": "PierInfo, Game",
+      "typeId": 5,
       "category": 0,
       "occupierType": 0,
       "baseOffsets": [
@@ -1137,11 +1138,11 @@
       "minimumNeighbours": 0,
       "canRotate": false,
       "animalTypeId": 255,
-      "typeId": 5,
       "componentInfos": []
     },
     {
       "$type": "AnimalFieldInfo, Game",
+      "typeId": 3,
       "category": 1,
       "occupierType": 0,
       "baseOffsets": [
@@ -1192,12 +1193,12 @@
       "minimumNeighbours": 1,
       "canRotate": false,
       "animalTypeId": 0,
-      "typeId": 3,
       "componentInfos": []
     },
     {
       "$type": "TrainPlatformInfo, Game",
       "heightOffset": 2,
+      "typeId": 0,
       "category": 0,
       "occupierType": 0,
       "baseOffsets": [
@@ -1235,7 +1236,6 @@
       "minimumNeighbours": 1,
       "canRotate": false,
       "animalTypeId": 255,
-      "typeId": 0,
       "componentInfos": []
     },
     {
@@ -1245,6 +1245,7 @@
       "harvestTileTime": 1.0,
       "unitSpeedFactor": 0.75,
       "plantTypeCount": 3,
+      "typeId": 2,
       "category": 0,
       "occupierType": 0,
       "baseOffsets": [
@@ -1459,7 +1460,6 @@
       "minimumNeighbours": 0,
       "canRotate": true,
       "animalTypeId": 255,
-      "typeId": 2,
       "componentInfos": []
     },
     {
@@ -1469,6 +1469,7 @@
       "harvestTileTime": 0.7,
       "unitSpeedFactor": 1.0,
       "plantTypeCount": 0,
+      "typeId": 1,
       "category": 0,
       "occupierType": 0,
       "baseOffsets": [
@@ -2134,7 +2135,6 @@
       "minimumNeighbours": 0,
       "canRotate": false,
       "animalTypeId": 255,
-      "typeId": 1,
       "componentInfos": []
     }
   ],

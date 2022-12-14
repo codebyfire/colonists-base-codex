@@ -1,4 +1,5 @@
 {
+  "typeId": 3,
   "category": 1,
   "occupierType": 0,
   "baseOffsets": [
@@ -49,6 +50,5 @@
   "minimumNeighbours": 1,
   "canRotate": false,
   "animalTypeId": 0,
-  "typeId": 3,
   "componentInfos": []
 }

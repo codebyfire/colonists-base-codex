@@ -1,6 +1,7 @@
 {
   "treeGrowthTime": 0.0,
   "growthTime": 75.0,
+  "typeId": 9,
   "category": 0,
   "occupierType": 0,
   "baseOffsets": [
@@ -666,7 +667,6 @@
   "minimumNeighbours": 0,
   "canRotate": true,
   "animalTypeId": 255,
-  "typeId": 9,
   "componentInfos": [
     {
       "$type": "EntityStorageDataInfo, Game",
