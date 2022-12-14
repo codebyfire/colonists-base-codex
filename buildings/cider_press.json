@@ -59,6 +59,7 @@
         "isClearanceModeAvailable": false,
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
         "typeId": 21
       }
     ]

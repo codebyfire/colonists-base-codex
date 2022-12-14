@@ -85,6 +85,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -876,6 +877,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -2488,6 +2490,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ]
@@ -3169,6 +3172,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -3752,6 +3756,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           }
         ]
@@ -4401,6 +4406,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 30.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ]
@@ -5506,6 +5512,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ]
@@ -6156,6 +6163,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 45.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 115
           },
           {
@@ -6846,6 +6854,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -7450,6 +7459,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 112
           }
         ]
@@ -7991,6 +8001,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           }
         ]
@@ -8494,6 +8505,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ]
@@ -9030,6 +9042,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 113
           }
         ]
@@ -9431,6 +9444,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -13499,6 +13513,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           }
         ]
@@ -14277,6 +14292,7 @@
             "isClearanceModeAvailable": true,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 110
           },
           {
@@ -14351,6 +14367,7 @@
             "isClearanceModeAvailable": true,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 110
           },
           {
@@ -14429,6 +14446,7 @@
             "isClearanceModeAvailable": true,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 110
           },
           {
@@ -14952,6 +14970,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -16925,6 +16944,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 30.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 115
           },
           {
@@ -17444,6 +17464,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           }
         ]
@@ -18448,6 +18469,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           }
         ]
@@ -19597,6 +19619,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ],
@@ -19676,6 +19699,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ],
@@ -19768,6 +19792,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ]
@@ -20175,6 +20200,7 @@
             "isClearanceModeAvailable": true,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 111
           },
           {
@@ -20279,6 +20305,7 @@
             "isClearanceModeAvailable": true,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 111
           },
           {
@@ -20398,6 +20425,7 @@
             "isClearanceModeAvailable": true,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 111
           },
           {
@@ -20906,6 +20934,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 117
           }
         ],
@@ -20966,6 +20995,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 117
           }
         ]
@@ -21420,6 +21450,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ]
@@ -22014,6 +22045,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 114
           },
           {
@@ -22151,6 +22183,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 114
           },
           {
@@ -22797,6 +22830,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -24861,6 +24895,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 20.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -27404,6 +27439,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           }
         ]
@@ -27926,6 +27962,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 116
           },
           {
@@ -29198,6 +29235,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 15.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 21
           },
           {
@@ -29694,6 +29732,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": 7.5,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 4,
             "typeId": 21
           }
         ]
@@ -30040,6 +30079,7 @@
             "isClearanceModeAvailable": false,
             "displayProcessTime": -1.0,
             "workerProductionSpeedBoostFactor": 1.0,
+            "activeDirtyType": 0,
             "typeId": 116
           },
           {

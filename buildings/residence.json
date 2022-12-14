@@ -56,6 +56,7 @@
         "isClearanceModeAvailable": false,
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
         "typeId": 21
       }
     ],
@@ -135,6 +136,7 @@
         "isClearanceModeAvailable": false,
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
         "typeId": 21
       }
     ],
@@ -227,6 +229,7 @@
         "isClearanceModeAvailable": false,
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
         "typeId": 21
       }
     ]
