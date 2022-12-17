@@ -1,30 +1,4 @@
 {
-  "structureFloorCoordDict": {
-    "7": {
-      "x": 29,
-      "y": 0
-    },
-    "9": {
-      "x": 27,
-      "y": 0
-    },
-    "2": {
-      "x": 27,
-      "y": 0
-    },
-    "1": {
-      "x": 27,
-      "y": 0
-    },
-    "3": {
-      "x": 29,
-      "y": 0
-    },
-    "4": {
-      "x": 29,
-      "y": 0
-    }
-  },
   "treeFieldRenderSpecDict": {
     "7": {
       "minScale": 0.9,
@@ -82,5 +56,201 @@
     10,
     7
   ],
-  "floorColliderUtilityUnitSpecificBuildingIdHash": null
+  "floorColliderUtilityUnitSpecificBuildingIdHash": null,
+  "terrainTypeColors": [
+    {
+      "terrainType": 1,
+      "color": "697615"
+    },
+    {
+      "terrainType": 3,
+      "color": "5A6617"
+    },
+    {
+      "terrainType": 15,
+      "color": "697615"
+    },
+    {
+      "terrainType": 2,
+      "color": "D1B46F"
+    },
+    {
+      "terrainType": 10,
+      "color": "D5A063"
+    },
+    {
+      "terrainType": 13,
+      "color": "A06F38"
+    },
+    {
+      "terrainType": 14,
+      "color": "A9692A"
+    },
+    {
+      "terrainType": 16,
+      "color": "B8A957"
+    },
+    {
+      "terrainType": 4,
+      "color": "5E5B55"
+    },
+    {
+      "terrainType": 11,
+      "color": "3A3A3A"
+    },
+    {
+      "terrainType": 5,
+      "color": "DFF5100"
+    }
+  ],
+  "terrainTypeDetailSpecs": [
+    {
+      "terrainType": 1,
+      "frequency": 0.25,
+      "detailIds": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31
+      ]
+    },
+    {
+      "terrainType": 2,
+      "frequency": 0.1,
+      "detailIds": [
+        50,
+        51,
+        52,
+        53,
+        32,
+        33
+      ]
+    },
+    {
+      "terrainType": 3,
+      "frequency": 0.2,
+      "detailIds": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        11,
+        12,
+        24,
+        22
+      ]
+    },
+    {
+      "terrainType": 10,
+      "frequency": 0.1,
+      "detailIds": [
+        70,
+        71,
+        72,
+        73,
+        65,
+        66,
+        30,
+        22,
+        21
+      ]
+    },
+    {
+      "terrainType": 13,
+      "frequency": 0.1,
+      "detailIds": [
+        70,
+        71,
+        72,
+        73,
+        65,
+        66,
+        30,
+        22,
+        21
+      ]
+    },
+    {
+      "terrainType": 14,
+      "frequency": 0.1,
+      "detailIds": [
+        70,
+        71,
+        72,
+        73,
+        65,
+        66,
+        30,
+        22,
+        21
+      ]
+    },
+    {
+      "terrainType": 4,
+      "frequency": 0.1,
+      "detailIds": [
+        10,
+        11,
+        12,
+        60,
+        61,
+        20,
+        90,
+        91,
+        92,
+        93,
+        95,
+        75
+      ]
+    },
+    {
+      "terrainType": 16,
+      "frequency": 0.1,
+      "detailIds": [
+        10,
+        11,
+        12,
+        50,
+        51
+      ]
+    }
+  ],
+  "structureDynamicFloorSpecs": [
+    {
+      "structureId": 1,
+      "dynamicFloorId": 1
+    },
+    {
+      "structureId": 2,
+      "dynamicFloorId": 1
+    },
+    {
+      "structureId": 3,
+      "dynamicFloorId": 2
+    },
+    {
+      "structureId": 4,
+      "dynamicFloorId": 2
+    },
+    {
+      "structureId": 7,
+      "dynamicFloorId": 2
+    },
+    {
+      "structureId": 9,
+      "dynamicFloorId": 1
+    }
+  ]
 }
