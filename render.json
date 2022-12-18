@@ -51,61 +51,75 @@
       }
     }
   },
-  "floorColliderUnitIdHash": [
-    1,
-    10,
-    7
-  ],
-  "floorColliderUtilityUnitSpecificBuildingIdHash": null,
-  "terrainTypeColors": [
+  "floorColliderUnitIdSpecs": [
     {
-      "terrainType": 1,
+      "unitId": 10,
+      "isOn": true
+    },
+    {
+      "unitId": 7,
+      "isOn": true
+    }
+  ],
+  "floorColliderUtilityUnitSpecificBuildingIdSpecs": [
+    {
+      "buildingId": 0,
+      "isOn": true
+    },
+    {
+      "buildingId": 40,
+      "isOn": true
+    }
+  ],
+  "terrainTypeColorsSpecs": [
+    {
+      "terrainId": 1,
       "color": "697615"
     },
     {
-      "terrainType": 3,
+      "terrainId": 3,
       "color": "5A6617"
     },
     {
-      "terrainType": 15,
+      "terrainId": 15,
       "color": "697615"
     },
     {
-      "terrainType": 2,
+      "terrainId": 2,
       "color": "D1B46F"
     },
     {
-      "terrainType": 10,
+      "terrainId": 10,
       "color": "D5A063"
     },
     {
-      "terrainType": 13,
+      "terrainId": 13,
       "color": "A06F38"
     },
     {
-      "terrainType": 14,
+      "terrainId": 14,
       "color": "A9692A"
     },
     {
-      "terrainType": 16,
+      "terrainId": 16,
       "color": "B8A957"
     },
     {
-      "terrainType": 4,
+      "terrainId": 4,
       "color": "5E5B55"
     },
     {
-      "terrainType": 11,
+      "terrainId": 11,
       "color": "3A3A3A"
     },
     {
-      "terrainType": 5,
+      "terrainId": 5,
       "color": "DFF5100"
     }
   ],
   "terrainTypeDetailSpecs": [
     {
-      "terrainType": 1,
+      "terrainId": 1,
       "frequency": 0.25,
       "detailIds": [
         1,
@@ -126,7 +140,7 @@
       ]
     },
     {
-      "terrainType": 2,
+      "terrainId": 2,
       "frequency": 0.1,
       "detailIds": [
         50,
@@ -138,7 +152,7 @@
       ]
     },
     {
-      "terrainType": 3,
+      "terrainId": 3,
       "frequency": 0.2,
       "detailIds": [
         40,
@@ -153,7 +167,7 @@
       ]
     },
     {
-      "terrainType": 10,
+      "terrainId": 10,
       "frequency": 0.1,
       "detailIds": [
         70,
@@ -168,7 +182,7 @@
       ]
     },
     {
-      "terrainType": 13,
+      "terrainId": 13,
       "frequency": 0.1,
       "detailIds": [
         70,
@@ -183,7 +197,7 @@
       ]
     },
     {
-      "terrainType": 14,
+      "terrainId": 14,
       "frequency": 0.1,
       "detailIds": [
         70,
@@ -198,7 +212,7 @@
       ]
     },
     {
-      "terrainType": 4,
+      "terrainId": 4,
       "frequency": 0.1,
       "detailIds": [
         10,
@@ -216,7 +230,7 @@
       ]
     },
     {
-      "terrainType": 16,
+      "terrainId": 16,
       "frequency": 0.1,
       "detailIds": [
         10,
