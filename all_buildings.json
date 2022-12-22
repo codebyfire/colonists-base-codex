@@ -14008,7 +14008,7 @@
       "maxAmount": 1,
       "unitPositions": [
         {
-          "unitTypeId": 4,
+          "unitTypeId": 26,
           "isInitial": false,
           "homeLayerOffset": {
             "coord": {

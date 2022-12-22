@@ -59,6 +59,10 @@
     {
       "unitId": 7,
       "isOn": true
+    },
+    {
+      "unitId": 26,
+      "isOn": true
     }
   ],
   "floorColliderUtilityUnitSpecificBuildingIdSpecs": [
