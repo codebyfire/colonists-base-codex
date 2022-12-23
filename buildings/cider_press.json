@@ -170,7 +170,12 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
@@ -216,7 +221,12 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
@@ -239,7 +249,12 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
@@ -285,7 +300,12 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
@@ -308,7 +328,16 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
@@ -331,7 +360,12 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
@@ -354,7 +388,16 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
