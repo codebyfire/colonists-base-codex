@@ -1,0 +1,63 @@
+{
+  "defaultSourceDemandPriorities": [
+    5,
+    11,
+    13,
+    0,
+    3,
+    1,
+    2,
+    10,
+    4,
+    9,
+    6,
+    8,
+    7,
+    12
+  ],
+  "defaultBuildingSourceDemandPriorities": [
+    3,
+    14,
+    51,
+    39,
+    34,
+    4
+  ],
+  "defaultBuildingConstructionPriorities": [
+    3,
+    41,
+    11,
+    34,
+    19,
+    38,
+    21,
+    2,
+    1,
+    15,
+    16,
+    13,
+    33,
+    39,
+    14,
+    61,
+    5
+  ],
+  "defaultResourceTransportPriorities": [
+    2,
+    43,
+    45,
+    46,
+    5,
+    3,
+    12,
+    16,
+    7,
+    1,
+    0
+  ],
+  "buildingProductionRecordsPerDay": 16,
+  "playerItemQuantityRecordsPerDay": 16,
+  "playerItemRateRecordsPerDay": 16,
+  "defaultNotificationLength": 30.0,
+  "customNotificationLengths": {}
+}
