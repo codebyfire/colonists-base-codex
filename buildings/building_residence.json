@@ -1,0 +1,581 @@
+{
+  "typeId": 41,
+  "ageComponentsDict": {
+    "LEVEL_1": [
+      {
+        "$type": "BuildingConstructionDataInfo, Game",
+        "time": 15.0,
+        "costs": [
+          {
+            "itemTypeId": 2,
+            "quantity": 2
+          }
+        ],
+        "energyCost": 0,
+        "requirements": [],
+        "typeId": 29
+      },
+      {
+        "$type": "BuildingProductionDataInfo, Game",
+        "processTime": 30.0,
+        "minProcessTime": -1.0,
+        "additionalTime": 0.0,
+        "itemStackGroupsProduced": [
+          {
+            "stacks": [
+              {
+                "itemTypeId": 43,
+                "quantity": 1
+              }
+            ],
+            "id": 0
+          }
+        ],
+        "miscCatProduced": 255,
+        "itemRequirements": [
+          {
+            "itemTypeId": 12,
+            "itemCategory": 0,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          },
+          {
+            "itemTypeId": 254,
+            "itemCategory": 2,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          }
+        ],
+        "defaultProductionBalance": 50,
+        "isClearanceModeAvailable": false,
+        "displayProcessTime": -1.0,
+        "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
+        "typeId": 21
+      }
+    ],
+    "LEVEL_2": [
+      {
+        "$type": "BuildingConstructionDataInfo, Game",
+        "time": 60.0,
+        "costs": [
+          {
+            "itemTypeId": 3,
+            "quantity": 4
+          },
+          {
+            "itemTypeId": 5,
+            "quantity": 4
+          }
+        ],
+        "energyCost": 0,
+        "requirements": [
+          {
+            "type": 6,
+            "compareType": 0,
+            "targetId": 50,
+            "matchIdHash": null,
+            "amount": 0
+          }
+        ],
+        "typeId": 29
+      },
+      {
+        "$type": "BuildingProductionDataInfo, Game",
+        "processTime": 30.0,
+        "minProcessTime": -1.0,
+        "additionalTime": 0.0,
+        "itemStackGroupsProduced": [
+          {
+            "stacks": [
+              {
+                "itemTypeId": 45,
+                "quantity": 1
+              }
+            ],
+            "id": 0
+          }
+        ],
+        "miscCatProduced": 255,
+        "itemRequirements": [
+          {
+            "itemTypeId": 12,
+            "itemCategory": 0,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          },
+          {
+            "itemTypeId": 254,
+            "itemCategory": 2,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          },
+          {
+            "itemTypeId": 254,
+            "itemCategory": 4,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          }
+        ],
+        "defaultProductionBalance": 50,
+        "isClearanceModeAvailable": false,
+        "displayProcessTime": -1.0,
+        "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
+        "typeId": 21
+      }
+    ],
+    "LEVEL_3": [
+      {
+        "$type": "BuildingConstructionDataInfo, Game",
+        "time": 120.0,
+        "costs": [
+          {
+            "itemTypeId": 3,
+            "quantity": 8
+          },
+          {
+            "itemTypeId": 5,
+            "quantity": 8
+          },
+          {
+            "itemTypeId": 34,
+            "quantity": 8
+          }
+        ],
+        "energyCost": 0,
+        "requirements": [
+          {
+            "type": 6,
+            "compareType": 0,
+            "targetId": 51,
+            "matchIdHash": null,
+            "amount": 0
+          }
+        ],
+        "typeId": 29
+      },
+      {
+        "$type": "BuildingProductionDataInfo, Game",
+        "processTime": 30.0,
+        "minProcessTime": -1.0,
+        "additionalTime": 0.0,
+        "itemStackGroupsProduced": [
+          {
+            "stacks": [
+              {
+                "itemTypeId": 46,
+                "quantity": 1
+              }
+            ],
+            "id": 0
+          }
+        ],
+        "miscCatProduced": 255,
+        "itemRequirements": [
+          {
+            "itemTypeId": 12,
+            "itemCategory": 0,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          },
+          {
+            "itemTypeId": 254,
+            "itemCategory": 2,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          },
+          {
+            "itemTypeId": 254,
+            "itemCategory": 4,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          },
+          {
+            "itemTypeId": 254,
+            "itemCategory": 3,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 255,
+            "amount": 1
+          }
+        ],
+        "defaultProductionBalance": 50,
+        "isClearanceModeAvailable": false,
+        "displayProcessTime": -1.0,
+        "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
+        "typeId": 21
+      }
+    ]
+  },
+  "baseOffsets": [
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 1
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": -1,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": -1,
+        "y": 1
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    }
+  ],
+  "doesHeightRequireModulus2": false,
+  "customEntranceDirections": [],
+  "maxAmount": -1,
+  "unitPositions": [
+    {
+      "unitTypeId": 3,
+      "isInitial": false,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.0,
+        "subY": 0.4,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": -1,
+          "y": 0
+        },
+        "subX": 0.0,
+        "subY": 0.4,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    },
+    {
+      "unitTypeId": 1,
+      "isInitial": true,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.2,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.0,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    }
+  ],
+  "requirements": [],
+  "isAvailable": true,
+  "constructionSiteIdleLoc": {
+    "coord": {
+      "x": -1,
+      "y": 0
+    },
+    "subX": 0.0,
+    "subY": 0.0,
+    "rotationY": 0.0
+  },
+  "constructionSiteWorkerSubLocs": [
+    {
+      "coord": {
+        "x": -1,
+        "y": 1
+      },
+      "subX": 0.2,
+      "subY": 0.0,
+      "rotationY": 0.0
+    },
+    {
+      "coord": {
+        "x": -1,
+        "y": 0
+      },
+      "subX": -0.2,
+      "subY": -0.4,
+      "rotationY": 0.0
+    }
+  ],
+  "doesRequireLandOwnership": true,
+  "componentInfos": [
+    {
+      "$type": "BuildingStorageConstructionDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 5,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": -1,
+            "y": 1
+          },
+          "height": 12,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.0,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 38
+    },
+    {
+      "$type": "BuildingStorageConstructionIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 7,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 0,
+            "y": 1
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 42
+    },
+    {
+      "$type": "BuildingStorageIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 1,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 0,
+            "y": 1
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 25
+    },
+    {
+      "$type": "BuildingStorageOutgoingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 2,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": -1,
+            "y": 0
+          },
+          "height": 1,
+          "centreOffset": {
+            "x": 0.13,
+            "y": -0.26
+          },
+          "slotOffset": 0.0,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 1
+        }
+      ],
+      "typeId": 26
+    },
+    {
+      "$type": "BuildingStorageProductionIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 8,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": -1,
+            "y": 0
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.4
+          },
+          "slotOffset": 0.0,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 40
+    }
+  ],
+  "category": 0
+}

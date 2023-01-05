@@ -16,6 +16,7 @@
   "plantTimeFactor": 1.0,
   "heightLeeway": -1,
   "isMapEditorPlaceable": true,
+  "validTerrainCategoryHash": [],
   "typeId": 13,
   "componentInfos": []
 }

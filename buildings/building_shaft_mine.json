@@ -1,0 +1,842 @@
+{
+  "typeId": 51,
+  "ageComponentsDict": {
+    "LEVEL_1": [
+      {
+        "$type": "BuildingConstructionDataInfo, Game",
+        "time": 60.0,
+        "costs": [
+          {
+            "itemTypeId": 3,
+            "quantity": 8
+          }
+        ],
+        "energyCost": 0,
+        "requirements": [
+          {
+            "type": 6,
+            "compareType": 0,
+            "targetId": 50,
+            "matchIdHash": null,
+            "amount": 0
+          },
+          {
+            "type": 6,
+            "compareType": 0,
+            "targetId": 40,
+            "matchIdHash": null,
+            "amount": 0
+          }
+        ],
+        "typeId": 29
+      },
+      {
+        "$type": "BuildingProductionMountainMineDataInfo, Game",
+        "intoProcessTime": 5.0,
+        "outOfProcessTime": 5.0,
+        "radius": 0,
+        "removeAmount": 0,
+        "naturalResourceTypeProcessTimeMultiplier": {},
+        "mineableNaturalResourceTypesHash": [],
+        "entranceTileOffset": {
+          "x": 1,
+          "y": 4
+        },
+        "externalTrackOffsets": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ],
+        "mineableNaturalResourceInfos": [
+          {
+            "naturalResourceTypeId": 0,
+            "processTime": 30.0,
+            "groupId": 0
+          },
+          {
+            "naturalResourceTypeId": 2,
+            "processTime": 45.0,
+            "groupId": 1
+          },
+          {
+            "naturalResourceTypeId": 1,
+            "processTime": 45.0,
+            "groupId": 1
+          },
+          {
+            "naturalResourceTypeId": 5,
+            "processTime": 45.0,
+            "groupId": 1
+          }
+        ],
+        "processTime": -1.0,
+        "minProcessTime": -1.0,
+        "additionalTime": 0.0,
+        "itemStackGroupsProduced": [
+          {
+            "stacks": [
+              {
+                "itemTypeId": 253,
+                "quantity": 4
+              }
+            ],
+            "id": 0
+          }
+        ],
+        "miscCatProduced": 7,
+        "itemRequirements": [
+          {
+            "itemTypeId": 254,
+            "itemCategory": 0,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 11,
+            "amount": 0
+          }
+        ],
+        "defaultProductionBalance": 50,
+        "isClearanceModeAvailable": false,
+        "displayProcessTime": -1.0,
+        "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 0,
+        "typeId": 114
+      },
+      {
+        "$type": "BuildingFuelConsumptionDataInfo, Game",
+        "fuelRequirements": [
+          {
+            "itemTypeId": 45,
+            "itemCategory": 0,
+            "usage": 0,
+            "usageRatePerDay": 2.0
+          }
+        ],
+        "typeId": 30
+      }
+    ],
+    "LEVEL_2": [
+      {
+        "$type": "BuildingConstructionDataInfo, Game",
+        "time": 60.0,
+        "costs": [
+          {
+            "itemTypeId": 3,
+            "quantity": 12
+          },
+          {
+            "itemTypeId": 34,
+            "quantity": 12
+          }
+        ],
+        "energyCost": 0,
+        "requirements": [
+          {
+            "type": 6,
+            "compareType": 0,
+            "targetId": 51,
+            "matchIdHash": null,
+            "amount": 0
+          },
+          {
+            "type": 6,
+            "compareType": 0,
+            "targetId": 41,
+            "matchIdHash": null,
+            "amount": 0
+          }
+        ],
+        "typeId": 29
+      },
+      {
+        "$type": "BuildingProductionMountainMineDataInfo, Game",
+        "intoProcessTime": 2.5,
+        "outOfProcessTime": 2.5,
+        "radius": 0,
+        "removeAmount": 0,
+        "naturalResourceTypeProcessTimeMultiplier": {},
+        "mineableNaturalResourceTypesHash": [],
+        "entranceTileOffset": {
+          "x": 1,
+          "y": 4
+        },
+        "externalTrackOffsets": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ],
+        "mineableNaturalResourceInfos": [
+          {
+            "naturalResourceTypeId": 0,
+            "processTime": 20.0,
+            "groupId": 0
+          },
+          {
+            "naturalResourceTypeId": 2,
+            "processTime": 30.0,
+            "groupId": 1
+          },
+          {
+            "naturalResourceTypeId": 1,
+            "processTime": 30.0,
+            "groupId": 1
+          },
+          {
+            "naturalResourceTypeId": 5,
+            "processTime": 30.0,
+            "groupId": 1
+          },
+          {
+            "naturalResourceTypeId": 6,
+            "processTime": 45.0,
+            "groupId": 2
+          },
+          {
+            "naturalResourceTypeId": 3,
+            "processTime": 45.0,
+            "groupId": 2
+          },
+          {
+            "naturalResourceTypeId": 4,
+            "processTime": 45.0,
+            "groupId": 2
+          }
+        ],
+        "processTime": 15.0,
+        "minProcessTime": -1.0,
+        "additionalTime": 2.0,
+        "itemStackGroupsProduced": [
+          {
+            "stacks": [
+              {
+                "itemTypeId": 253,
+                "quantity": 4
+              }
+            ],
+            "id": 0
+          }
+        ],
+        "miscCatProduced": 7,
+        "itemRequirements": [
+          {
+            "itemTypeId": 254,
+            "itemCategory": 0,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 12,
+            "amount": 0
+          }
+        ],
+        "defaultProductionBalance": 50,
+        "isClearanceModeAvailable": false,
+        "displayProcessTime": -1.0,
+        "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 0,
+        "typeId": 114
+      },
+      {
+        "$type": "BuildingFuelConsumptionDataInfo, Game",
+        "fuelRequirements": [
+          {
+            "itemTypeId": 46,
+            "itemCategory": 0,
+            "usage": 0,
+            "usageRatePerDay": 2.0
+          }
+        ],
+        "typeId": 30
+      }
+    ]
+  },
+  "baseOffsets": [
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": -1,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": -1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": -1
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": -1
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 1
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": -1,
+        "y": 1
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": -1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 1
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": -1
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 2
+      },
+      "requirements": [
+        {
+          "type": 18,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": false,
+      "isOwnedTerritoryRequired": false,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": true,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": 12
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 3
+      },
+      "requirements": [
+        {
+          "type": 18,
+          "compareType": 0,
+          "targetId": 255,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": false,
+      "isOwnedTerritoryRequired": false,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": true,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": false,
+      "heightLeeway": -1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 2
+      },
+      "requirements": [],
+      "isOccupy": false,
+      "isOwnedTerritoryRequired": false,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": false,
+      "showFootprintHighlight": true,
+      "heightLeeway": 20
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 2,
+        "y": 2
+      },
+      "requirements": [],
+      "isOccupy": false,
+      "isOwnedTerritoryRequired": false,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": false,
+      "showFootprintHighlight": true,
+      "heightLeeway": 20
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 4
+      },
+      "requirements": [],
+      "isOccupy": false,
+      "isOwnedTerritoryRequired": false,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": false,
+      "showFootprintHighlight": false,
+      "heightLeeway": -1
+    }
+  ],
+  "doesHeightRequireModulus2": false,
+  "customEntranceDirections": [],
+  "maxAmount": -1,
+  "unitPositions": [
+    {
+      "unitTypeId": 20,
+      "isInitial": false,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 1,
+          "y": 1
+        },
+        "subX": 0.0,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": 1,
+          "y": 3
+        },
+        "subX": 0.0,
+        "subY": 0.4,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    },
+    {
+      "unitTypeId": 1,
+      "isInitial": true,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 1
+        },
+        "subX": -0.2,
+        "subY": 0.2,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.0,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    },
+    {
+      "unitTypeId": 1,
+      "isInitial": true,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 1
+        },
+        "subX": 0.2,
+        "subY": 0.2,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.0,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    }
+  ],
+  "requirements": [],
+  "isAvailable": true,
+  "constructionSiteIdleLoc": {
+    "coord": {
+      "x": 1,
+      "y": 0
+    },
+    "subX": 0.0,
+    "subY": 0.0,
+    "rotationY": 0.0
+  },
+  "constructionSiteWorkerSubLocs": [
+    {
+      "coord": {
+        "x": 1,
+        "y": 1
+      },
+      "subX": 0.3,
+      "subY": 0.4,
+      "rotationY": 0.0
+    },
+    {
+      "coord": {
+        "x": 1,
+        "y": 1
+      },
+      "subX": -0.3,
+      "subY": 0.4,
+      "rotationY": 0.0
+    }
+  ],
+  "doesRequireLandOwnership": true,
+  "componentInfos": [
+    {
+      "$type": "BuildingStorageConstructionIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 7,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": -1,
+            "y": 1
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 42
+    },
+    {
+      "$type": "BuildingStorageConstructionDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 5,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 1,
+            "y": 1
+          },
+          "height": 10,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.0,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 38
+    },
+    {
+      "$type": "BuildingStorageIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 1,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": -1,
+            "y": 0
+          },
+          "height": 2,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 25
+    },
+    {
+      "$type": "BuildingStorageOutgoingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 2,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": -1,
+            "y": 1
+          },
+          "height": 2,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 26
+    },
+    {
+      "$type": "BuildingStorageProductionIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 8,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 1,
+            "y": 1
+          },
+          "height": 2,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 40
+    },
+    {
+      "$type": "BuildingStorageProductionDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 4,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 1,
+            "y": 0
+          },
+          "height": 2,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.75,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 37
+    }
+  ],
+  "category": 3
+}

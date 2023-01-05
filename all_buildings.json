@@ -6755,7 +6755,7 @@
                 "x": -1,
                 "y": 1
               },
-              "height": 2,
+              "height": 3,
               "centreOffset": {
                 "x": 0.0,
                 "y": 0.0
@@ -6781,7 +6781,7 @@
                 "x": -1,
                 "y": 0
               },
-              "height": 2,
+              "height": 3,
               "centreOffset": {
                 "x": 0.0,
                 "y": 0.0
@@ -6807,7 +6807,7 @@
                 "x": 0,
                 "y": 3
               },
-              "height": 2,
+              "height": 3,
               "centreOffset": {
                 "x": 0.0,
                 "y": 0.0
@@ -9984,7 +9984,6 @@
             "canBeAttacked": false,
             "canAttack": false,
             "attackRange": 0,
-            "zzz_attackItemTypeId": 254,
             "attackRequirements": [],
             "attackItemRequirement": null,
             "preparingFireTime": 0.0,
@@ -9998,7 +9997,6 @@
             "canRepair": false,
             "hitPointsPerRepair": 0,
             "repairItemRequirements": [],
-            "zzz_repairItemTypeIds": [],
             "repairTime": 0.0,
             "fireLocations": [],
             "targetLocations": [
@@ -10368,8 +10366,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -10399,8 +10397,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -10430,8 +10428,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -10994,7 +10992,6 @@
             "canBeAttacked": false,
             "canAttack": false,
             "attackRange": 0,
-            "zzz_attackItemTypeId": 254,
             "attackRequirements": [],
             "attackItemRequirement": null,
             "preparingFireTime": 0.0,
@@ -11008,7 +11005,6 @@
             "canRepair": false,
             "hitPointsPerRepair": 0,
             "repairItemRequirements": [],
-            "zzz_repairItemTypeIds": [],
             "repairTime": 0.0,
             "fireLocations": [],
             "targetLocations": [
@@ -11923,8 +11919,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -11954,8 +11950,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -11985,8 +11981,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12016,8 +12012,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12047,8 +12043,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12078,8 +12074,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12109,8 +12105,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12140,8 +12136,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12171,8 +12167,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12202,8 +12198,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12233,8 +12229,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12264,8 +12260,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -12295,8 +12291,8 @@
           ],
           "isOccupy": false,
           "isOwnedTerritoryRequired": false,
-          "structureToCreate": 5,
-          "layerTypeToCreate": 255,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 3,
           "customLayerHeights": null,
           "autoAdjustType": 2,
           "isPassable": true,
@@ -13490,7 +13486,6 @@
             "canBeAttacked": false,
             "canAttack": false,
             "attackRange": 0,
-            "zzz_attackItemTypeId": 254,
             "attackRequirements": [],
             "attackItemRequirement": null,
             "preparingFireTime": 0.0,
@@ -13504,7 +13499,6 @@
             "canRepair": false,
             "hitPointsPerRepair": 0,
             "repairItemRequirements": [],
-            "zzz_repairItemTypeIds": [],
             "repairTime": 0.0,
             "fireLocations": [],
             "targetLocations": [
@@ -28538,7 +28532,6 @@
             "canBeAttacked": true,
             "canAttack": false,
             "attackRange": 16,
-            "zzz_attackItemTypeId": 254,
             "attackRequirements": [],
             "attackItemRequirement": {
               "itemTypeId": 254,
@@ -28559,9 +28552,6 @@
                 "itemTypeId": 2,
                 "amount": 1
               }
-            ],
-            "zzz_repairItemTypeIds": [
-              2
             ],
             "repairTime": 30.0,
             "fireLocations": [],
@@ -28625,7 +28615,6 @@
             "canBeAttacked": true,
             "canAttack": true,
             "attackRange": 16,
-            "zzz_attackItemTypeId": 27,
             "attackRequirements": [
               {
                 "type": 6,
@@ -28658,10 +28647,6 @@
                 "itemTypeId": 3,
                 "amount": 1
               }
-            ],
-            "zzz_repairItemTypeIds": [
-              5,
-              3
             ],
             "repairTime": 25.0,
             "fireLocations": [
@@ -28744,7 +28729,6 @@
             "canBeAttacked": true,
             "canAttack": true,
             "attackRange": 18,
-            "zzz_attackItemTypeId": 29,
             "attackRequirements": [
               {
                 "type": 6,
@@ -28777,10 +28761,6 @@
                 "itemTypeId": 24,
                 "amount": 1
               }
-            ],
-            "zzz_repairItemTypeIds": [
-              34,
-              24
             ],
             "repairTime": 15.0,
             "fireLocations": [

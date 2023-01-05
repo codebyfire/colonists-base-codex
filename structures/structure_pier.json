@@ -1,0 +1,49 @@
+{
+  "typeId": 5,
+  "category": 0,
+  "occupierType": 0,
+  "baseOffsets": [
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 0
+      },
+      "requirements": [
+        {
+          "type": 2,
+          "compareType": 0,
+          "targetId": 1,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    }
+  ],
+  "buildCosts": [
+    {
+      "itemTypeId": 3,
+      "quantity": 1
+    }
+  ],
+  "isRequiresFlat": false,
+  "minimumNeighbours": 0,
+  "canRotate": false,
+  "animalTypeId": 255,
+  "componentInfos": []
+}

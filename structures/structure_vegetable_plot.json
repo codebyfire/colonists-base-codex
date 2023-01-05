@@ -1,0 +1,223 @@
+{
+  "seedTime": 5.0,
+  "growthTime": 90.0,
+  "harvestTileTime": 1.0,
+  "unitSpeedFactor": 0.75,
+  "plantTypeCount": 3,
+  "typeId": 2,
+  "category": 0,
+  "occupierType": 0,
+  "baseOffsets": [
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 0
+      },
+      "requirements": [
+        {
+          "type": 8,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1,
+            3
+          ],
+          "amount": 0
+        },
+        {
+          "type": 27,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 1
+      },
+      "requirements": [
+        {
+          "type": 8,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1,
+            3
+          ],
+          "amount": 0
+        },
+        {
+          "type": 27,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 2
+      },
+      "requirements": [
+        {
+          "type": 8,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1,
+            3
+          ],
+          "amount": 0
+        },
+        {
+          "type": 27,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 3
+      },
+      "requirements": [
+        {
+          "type": 8,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1,
+            3
+          ],
+          "amount": 0
+        },
+        {
+          "type": 27,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 4
+      },
+      "requirements": [
+        {
+          "type": 8,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1,
+            3
+          ],
+          "amount": 0
+        },
+        {
+          "type": 27,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightLeeway": -1
+    }
+  ],
+  "buildCosts": [],
+  "isRequiresFlat": false,
+  "minimumNeighbours": 0,
+  "canRotate": true,
+  "animalTypeId": 255,
+  "componentInfos": []
+}

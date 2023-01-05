@@ -12,12 +12,13 @@
   "occupierType": 0,
   "baseOffsets": [],
   "isPerpendicular": false,
-  "validTerrainTypes": [
-    5
-  ],
+  "validTerrainTypes": [],
   "plantTimeFactor": 1.5,
   "heightLeeway": 5,
   "isMapEditorPlaceable": false,
+  "validTerrainCategoryHash": [
+    3
+  ],
   "typeId": 66,
   "componentInfos": []
 }
