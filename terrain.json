@@ -1,0 +1,145 @@
+{
+  "seaLevel": 90,
+  "unitHeightLeewayNeeded": 10,
+  "maxAdjustFromCoreHeight": 20,
+  "maxNeighbourCornerAdjust": 5,
+  "maxPathSlope": 10,
+  "maxBuildingSlope": 30,
+  "maxTrackSlope": 16,
+  "maxRoamSlope": 20,
+  "maxSheepFieldSlope": 12,
+  "maxCowFieldSlope": 12,
+  "maxOrchardFieldSlope": 12,
+  "maxWheatFieldSlope": 12,
+  "gravityFactor": 0.16,
+  "snowTreeGrowthTimeFactor": 2.0,
+  "defaultFogOfWarDistance": 16,
+  "terrains": [
+    {
+      "terrainId": 1,
+      "terrainCategory": 0
+    },
+    {
+      "terrainId": 3,
+      "terrainCategory": 0
+    },
+    {
+      "terrainId": 17,
+      "terrainCategory": 0
+    },
+    {
+      "terrainId": 15,
+      "terrainCategory": 255
+    },
+    {
+      "terrainId": 10,
+      "terrainCategory": 1
+    },
+    {
+      "terrainId": 13,
+      "terrainCategory": 1
+    },
+    {
+      "terrainId": 14,
+      "terrainCategory": 1
+    },
+    {
+      "terrainId": 4,
+      "terrainCategory": 2
+    },
+    {
+      "terrainId": 11,
+      "terrainCategory": 2
+    },
+    {
+      "terrainId": 5,
+      "terrainCategory": 2
+    }
+  ],
+  "biomeTerrainLayerDict": {
+    "Default": [
+      {
+        "terrainId": 2,
+        "height": 0,
+        "addSeaHeight": false,
+        "terrainTileBorderType": 0
+      },
+      {
+        "terrainId": 1,
+        "height": 5,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 0
+      },
+      {
+        "terrainId": 3,
+        "height": 25,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 0
+      },
+      {
+        "terrainId": 4,
+        "height": 50,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      },
+      {
+        "terrainId": 5,
+        "height": 100,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      }
+    ],
+    "Snow": [
+      {
+        "terrainId": 1,
+        "height": 0,
+        "addSeaHeight": false,
+        "terrainTileBorderType": 0
+      },
+      {
+        "terrainId": 5,
+        "height": 9,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      },
+      {
+        "terrainId": 4,
+        "height": 23,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      },
+      {
+        "terrainId": 5,
+        "height": 50,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      }
+    ],
+    "Desert": [
+      {
+        "terrainId": 2,
+        "height": 0,
+        "addSeaHeight": false,
+        "terrainTileBorderType": 0
+      },
+      {
+        "terrainId": 13,
+        "height": 4,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      },
+      {
+        "terrainId": 3,
+        "height": 13,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      },
+      {
+        "terrainId": 14,
+        "height": 23,
+        "addSeaHeight": true,
+        "terrainTileBorderType": 1
+      }
+    ]
+  }
+}
