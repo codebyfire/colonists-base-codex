@@ -1,5 +1,4 @@
 {
-  "syncCheckInterval": 1000,
   "maxPathToFlagLength": 20,
   "treeStumpLifetime": 480.0,
   "maxUnsupportedBridgeLength": 8,
