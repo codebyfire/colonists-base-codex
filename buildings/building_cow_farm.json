@@ -297,20 +297,12 @@
       },
       "requirements": [
         {
-          "type": 8,
+          "type": 30,
           "compareType": 0,
           "targetId": 0,
           "matchIdHash": [
-            1,
-            3
+            0
           ],
-          "amount": 0
-        },
-        {
-          "type": 25,
-          "compareType": 0,
-          "targetId": 0,
-          "matchIdHash": null,
           "amount": 0
         }
       ],
@@ -338,12 +330,11 @@
       },
       "requirements": [
         {
-          "type": 8,
+          "type": 30,
           "compareType": 0,
           "targetId": 0,
           "matchIdHash": [
-            1,
-            3
+            0
           ],
           "amount": 0
         }
@@ -372,12 +363,11 @@
       },
       "requirements": [
         {
-          "type": 8,
+          "type": 30,
           "compareType": 0,
           "targetId": 0,
           "matchIdHash": [
-            1,
-            3
+            0
           ],
           "amount": 0
         }
@@ -406,12 +396,11 @@
       },
       "requirements": [
         {
-          "type": 8,
+          "type": 30,
           "compareType": 0,
           "targetId": 0,
           "matchIdHash": [
-            1,
-            3
+            0
           ],
           "amount": 0
         }
