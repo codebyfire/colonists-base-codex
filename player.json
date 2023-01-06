@@ -15,14 +15,6 @@
     7,
     12
   ],
-  "defaultBuildingSourceDemandPriorities": [
-    3,
-    14,
-    51,
-    39,
-    34,
-    4
-  ],
   "defaultBuildingConstructionPriorities": [
     3,
     41,
@@ -58,6 +50,5 @@
   "buildingProductionRecordsPerDay": 16,
   "playerItemQuantityRecordsPerDay": 16,
   "playerItemRateRecordsPerDay": 16,
-  "defaultNotificationLength": 30.0,
-  "customNotificationLengths": {}
+  "defaultNotificationLength": 30.0
 }
