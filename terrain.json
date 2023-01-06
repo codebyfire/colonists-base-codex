@@ -32,6 +32,10 @@
       "terrainCategory": 255
     },
     {
+      "terrainId": 2,
+      "terrainCategory": 1
+    },
+    {
       "terrainId": 10,
       "terrainCategory": 1
     },
