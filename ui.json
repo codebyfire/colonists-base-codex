@@ -48,192 +48,7 @@
     62,
     49
   ],
-  "resourceCategoriesDict": {
-    "0": [
-      {
-        "id": 0,
-        "itemTypeId": 43,
-        "itemCategory": 0
-      },
-      {
-        "id": 1,
-        "itemTypeId": 45,
-        "itemCategory": 0
-      },
-      {
-        "id": 2,
-        "itemTypeId": 46,
-        "itemCategory": 0
-      }
-    ],
-    "1": [
-      {
-        "id": 9,
-        "itemTypeId": 6,
-        "itemCategory": 0
-      },
-      {
-        "id": 10,
-        "itemTypeId": 2,
-        "itemCategory": 0
-      },
-      {
-        "id": 11,
-        "itemTypeId": 5,
-        "itemCategory": 0
-      },
-      {
-        "id": 12,
-        "itemTypeId": 3,
-        "itemCategory": 0
-      },
-      {
-        "id": 13,
-        "itemTypeId": 34,
-        "itemCategory": 0
-      },
-      {
-        "id": 14,
-        "itemTypeId": 30,
-        "itemCategory": 0
-      },
-      {
-        "id": 15,
-        "itemTypeId": 8,
-        "itemCategory": 0
-      }
-    ],
-    "2": [
-      {
-        "id": 20,
-        "itemTypeId": 12,
-        "itemCategory": 0
-      },
-      {
-        "id": 21,
-        "itemTypeId": 254,
-        "itemCategory": 2
-      },
-      {
-        "id": 23,
-        "itemTypeId": 0,
-        "itemCategory": 0
-      },
-      {
-        "id": 24,
-        "itemTypeId": 254,
-        "itemCategory": 4
-      },
-      {
-        "id": 25,
-        "itemTypeId": 9,
-        "itemCategory": 0
-      },
-      {
-        "id": 26,
-        "itemTypeId": 10,
-        "itemCategory": 0
-      },
-      {
-        "id": 27,
-        "itemTypeId": 48,
-        "itemCategory": 0
-      },
-      {
-        "id": 28,
-        "itemTypeId": 49,
-        "itemCategory": 0
-      },
-      {
-        "id": 29,
-        "itemTypeId": 254,
-        "itemCategory": 3
-      }
-    ],
-    "3": [
-      {
-        "id": 40,
-        "itemTypeId": 20,
-        "itemCategory": 0
-      },
-      {
-        "id": 41,
-        "itemTypeId": 14,
-        "itemCategory": 0
-      },
-      {
-        "id": 42,
-        "itemTypeId": 33,
-        "itemCategory": 0
-      },
-      {
-        "id": 43,
-        "itemTypeId": 35,
-        "itemCategory": 0
-      },
-      {
-        "id": 44,
-        "itemTypeId": 26,
-        "itemCategory": 0
-      },
-      {
-        "id": 45,
-        "itemTypeId": 38,
-        "itemCategory": 0
-      }
-    ],
-    "4": [
-      {
-        "id": 31,
-        "itemTypeId": 36,
-        "itemCategory": 0
-      },
-      {
-        "id": 32,
-        "itemTypeId": 25,
-        "itemCategory": 0
-      },
-      {
-        "id": 33,
-        "itemTypeId": 18,
-        "itemCategory": 0
-      },
-      {
-        "id": 34,
-        "itemTypeId": 19,
-        "itemCategory": 0
-      },
-      {
-        "id": 35,
-        "itemTypeId": 24,
-        "itemCategory": 0
-      },
-      {
-        "id": 36,
-        "itemTypeId": 42,
-        "itemCategory": 0
-      }
-    ],
-    "5": [
-      {
-        "id": 50,
-        "itemTypeId": 254,
-        "itemCategory": 7
-      }
-    ],
-    "6": [
-      {
-        "id": 61,
-        "itemTypeId": 27,
-        "itemCategory": 0
-      },
-      {
-        "id": 62,
-        "itemTypeId": 29,
-        "itemCategory": 0
-      }
-    ]
-  },
+  "resourceCategoriesDict": null,
   "techCategoryOrderIds": [
     0,
     6,
@@ -241,5 +56,180 @@
     3,
     1,
     8
-  ]
+  ],
+  "globalStorageUISpec": {
+    "groupSpecs": [
+      {
+        "category": 0,
+        "entries": [
+          {
+            "resourceId": 43,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 45,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 46,
+            "resourceCategoryId": 0
+          }
+        ]
+      },
+      {
+        "category": 1,
+        "entries": [
+          {
+            "resourceId": 6,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 2,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 5,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 3,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 34,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 30,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 8,
+            "resourceCategoryId": 0
+          }
+        ]
+      },
+      {
+        "category": 2,
+        "entries": [
+          {
+            "resourceId": 12,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 254,
+            "resourceCategoryId": 2
+          },
+          {
+            "resourceId": 0,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 254,
+            "resourceCategoryId": 4
+          },
+          {
+            "resourceId": 9,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 10,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 48,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 49,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 254,
+            "resourceCategoryId": 3
+          }
+        ]
+      },
+      {
+        "category": 3,
+        "entries": [
+          {
+            "resourceId": 20,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 14,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 33,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 35,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 26,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 38,
+            "resourceCategoryId": 0
+          }
+        ]
+      },
+      {
+        "category": 4,
+        "entries": [
+          {
+            "resourceId": 24,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 42,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 36,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 25,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 18,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 19,
+            "resourceCategoryId": 0
+          }
+        ]
+      },
+      {
+        "category": 5,
+        "entries": [
+          {
+            "resourceId": 254,
+            "resourceCategoryId": 7
+          }
+        ]
+      },
+      {
+        "category": 6,
+        "entries": [
+          {
+            "resourceId": 27,
+            "resourceCategoryId": 0
+          },
+          {
+            "resourceId": 29,
+            "resourceCategoryId": 0
+          }
+        ]
+      }
+    ]
+  }
 }
