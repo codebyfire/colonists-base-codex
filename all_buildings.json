@@ -10842,13 +10842,14 @@
               "quantity": 4
             }
           ],
+          "beachLandingShipProvisionItems": [],
           "queueBuoyStartOffset": {
             "x": 0,
             "y": 6
           },
           "queueBuoyCustomSearchOffset": {
             "x": 0,
-            "y": 0
+            "y": 4
           },
           "supportedBoatTypeHash": [
             1
@@ -13335,13 +13336,14 @@
               "quantity": 12
             }
           ],
+          "beachLandingShipProvisionItems": [],
           "queueBuoyStartOffset": {
             "x": 0,
             "y": 11
           },
           "queueBuoyCustomSearchOffset": {
             "x": 0,
-            "y": 0
+            "y": 9
           },
           "supportedBoatTypeHash": [
             1,
@@ -24048,7 +24050,7 @@
           "shipLandingDuration": 7.0,
           "shipDepartDuration": 7.0,
           "minShipDockDuration": 30.0,
-          "maxSalesPerVisit": 32,
+          "maxSalesPerVisit": 16,
           "floorCoord": {
             "x": 0,
             "y": 1
@@ -27959,7 +27961,7 @@
             "$type": "BuildingProductionPlantableFarmDataInfo, Game",
             "processTime": 15.0,
             "minProcessTime": -1.0,
-            "additionalTime": 15.0,
+            "additionalTime": 0.0,
             "itemStackGroupsProduced": [
               {
                 "stacks": [
@@ -27985,7 +27987,7 @@
             ],
             "defaultProductionBalance": 50,
             "isClearanceModeAvailable": false,
-            "displayProcessTime": -1.0,
+            "displayProcessTime": 30.0,
             "workerProductionSpeedBoostFactor": 1.0,
             "activeDirtyType": 0,
             "typeId": 116
@@ -30061,7 +30063,7 @@
             "$type": "BuildingProductionPlantableFarmDataInfo, Game",
             "processTime": 15.0,
             "minProcessTime": -1.0,
-            "additionalTime": 15.0,
+            "additionalTime": 0.0,
             "itemStackGroupsProduced": [
               {
                 "stacks": [
@@ -30087,7 +30089,7 @@
             ],
             "defaultProductionBalance": 50,
             "isClearanceModeAvailable": false,
-            "displayProcessTime": -1.0,
+            "displayProcessTime": 30.0,
             "workerProductionSpeedBoostFactor": 1.0,
             "activeDirtyType": 0,
             "typeId": 116
