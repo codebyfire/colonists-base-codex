@@ -38,7 +38,7 @@
         "$type": "BuildingProductionPlantableFarmDataInfo, Game",
         "processTime": 15.0,
         "minProcessTime": -1.0,
-        "additionalTime": 15.0,
+        "additionalTime": 0.0,
         "itemStackGroupsProduced": [
           {
             "stacks": [
@@ -64,7 +64,7 @@
         ],
         "defaultProductionBalance": 50,
         "isClearanceModeAvailable": false,
-        "displayProcessTime": -1.0,
+        "displayProcessTime": 30.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
         "typeId": 116
