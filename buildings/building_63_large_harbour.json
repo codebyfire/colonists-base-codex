@@ -2527,6 +2527,15 @@
         "y": 0.0
       },
       "typeId": 47
+    },
+    {
+      "$type": "BuildingPortExpeditionDataInfo, Game",
+      "supportedExpeditionIds": [
+        0,
+        1,
+        2
+      ],
+      "typeId": 32
     }
   ],
   "category": 6
