@@ -674,7 +674,7 @@
       "shipLandingDuration": 7.0,
       "shipDepartDuration": 7.0,
       "minShipDockDuration": 30.0,
-      "maxSalesPerVisit": 32,
+      "maxSalesPerVisit": 16,
       "floorCoord": {
         "x": 0,
         "y": 1

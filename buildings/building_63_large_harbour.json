@@ -2410,6 +2410,7 @@
           "quantity": 12
         }
       ],
+      "beachLandingShipProvisionItems": [],
       "queueBuoyStartOffset": {
         "x": 0,
         "y": 11
