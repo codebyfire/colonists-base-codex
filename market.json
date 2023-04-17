@@ -1,43 +1,56 @@
 {
   "itemInfoDict": {
     "BOOKS": {
-      "startingPrice": 14.0
+      "startingPrice": 14.0,
+      "availabilityType": 0
     },
     "CLAY": {
-      "startingPrice": 4.0
+      "startingPrice": 4.0,
+      "availabilityType": 0
     },
     "COAL": {
-      "startingPrice": 4.0
+      "startingPrice": 4.0,
+      "availabilityType": 0
     },
     "GLASS": {
-      "startingPrice": 18.0
+      "startingPrice": 18.0,
+      "availabilityType": 0
     },
     "GOLD": {
-      "startingPrice": 8.0
+      "startingPrice": 8.0,
+      "availabilityType": 0
     },
     "IRON": {
-      "startingPrice": 6.0
+      "startingPrice": 6.0,
+      "availabilityType": 0
     },
     "IRON_ORE": {
-      "startingPrice": 4.0
+      "startingPrice": 4.0,
+      "availabilityType": 0
     },
     "LOGS": {
-      "startingPrice": 0.2
+      "startingPrice": 0.2,
+      "availabilityType": 0
     },
     "QUARTZ": {
-      "startingPrice": 8.0
+      "startingPrice": 8.0,
+      "availabilityType": 0
     },
     "SALT": {
-      "startingPrice": 8.0
+      "startingPrice": 8.0,
+      "availabilityType": 0
     },
     "STEEL": {
-      "startingPrice": 16.0
+      "startingPrice": 16.0,
+      "availabilityType": 0
     },
     "STONE": {
-      "startingPrice": 1.0
+      "startingPrice": 1.0,
+      "availabilityType": 0
     },
     "TOOLS": {
-      "startingPrice": 8.0
+      "startingPrice": 8.0,
+      "availabilityType": 0
     }
   },
   "defaultCommissionPercent": 0.5,
