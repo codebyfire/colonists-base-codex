@@ -977,11 +977,11 @@
       "beachLandingShipProvisionItems": [],
       "queueBuoyStartOffset": {
         "x": 0,
-        "y": 6
+        "y": 4
       },
       "queueBuoyCustomSearchOffset": {
         "x": 0,
-        "y": 4
+        "y": 2
       },
       "supportedBoatTypeHash": [
         1
@@ -995,7 +995,7 @@
       "allowedAmount": 0,
       "zzz_mainDockingOffset": {
         "x": 0,
-        "y": 4
+        "y": 2
       },
       "zzz_mainDockingRotation": {
         "x": 1,
@@ -1004,7 +1004,7 @@
       "dockingOffsets": [
         {
           "x": 0,
-          "y": 4
+          "y": 2
         }
       ],
       "dockingRotations": [
@@ -1015,17 +1015,17 @@
       ],
       "visualDockingOffset": {
         "x": 0,
-        "y": 4
+        "y": 2
       },
       "visualPierLoadingOffset": {
         "x": 0,
-        "y": 3
+        "y": 1
       },
       "dockingLocations": [
         {
           "coord": {
             "x": 1,
-            "y": 4
+            "y": 2
           },
           "direction": {
             "x": -1,
@@ -1044,8 +1044,8 @@
         "y": 0
       },
       "floorRotation": {
-        "x": 1,
-        "y": 0
+        "x": 0,
+        "y": -1
       },
       "floorCoordOffset": {
         "x": 0.0,
