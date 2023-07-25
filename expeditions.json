@@ -1,0 +1,10 @@
+{
+  "expeditionDict": {
+    "ColonyShipHarbour": {
+      "targetBuildingId": 22
+    },
+    "ColonyShipLargeHarbour": {
+      "targetBuildingId": 63
+    }
+  }
+}
