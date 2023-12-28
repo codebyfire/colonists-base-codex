@@ -3,5 +3,19 @@
     0,
     1,
     2
-  ]
+  ],
+  "waterAmountTypeHeightDict": {
+    "Little": {
+      "baseHeight": 110,
+      "heightRange": 50.0
+    },
+    "Some": {
+      "baseHeight": 82,
+      "heightRange": 50.0
+    },
+    "Lots": {
+      "baseHeight": 60,
+      "heightRange": 60.0
+    }
+  }
 }

@@ -64,7 +64,7 @@
         "fireAmount": 0,
         "reloadTime": 0.0,
         "burnTime": 300.0,
-        "burnRestartTime": 300.0,
+        "burnRestartTime": 5.0,
         "armourDamageReduction": 0.0,
         "canRepair": false,
         "hitPointsPerRepair": 0,
@@ -2532,8 +2532,7 @@
       "$type": "BuildingPortExpeditionDataInfo, Game",
       "supportedExpeditionIds": [
         0,
-        1,
-        2
+        1
       ],
       "typeId": 32
     }

@@ -1,16 +1,20 @@
 {
+  "$type": "AnimalFieldInfo, Game",
   "typeId": 3,
   "category": 1,
   "occupierType": 0,
   "baseOffsets": [
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 0,
         "y": 0
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -20,6 +24,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 24,
           "compareType": 0,
           "targetId": 0,

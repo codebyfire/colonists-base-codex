@@ -3036,7 +3036,7 @@
                 "x": -2,
                 "y": 0
               },
-              "height": 2,
+              "height": 3,
               "centreOffset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3062,7 +3062,7 @@
                 "x": -2,
                 "y": 2
               },
-              "height": 2,
+              "height": 3,
               "centreOffset": {
                 "x": 0.35,
                 "y": -0.25
@@ -9981,7 +9981,7 @@
             "fireAmount": 0,
             "reloadTime": 0.0,
             "burnTime": 300.0,
-            "burnRestartTime": 300.0,
+            "burnRestartTime": 5.0,
             "armourDamageReduction": 0.0,
             "canRepair": false,
             "hitPointsPerRepair": 0,
@@ -10920,6 +10920,13 @@
             "y": 0.0
           },
           "typeId": 47
+        },
+        {
+          "$type": "BuildingPortExpeditionDataInfo, Game",
+          "supportedExpeditionIds": [
+            0
+          ],
+          "typeId": 32
         }
       ],
       "category": 6
@@ -10990,7 +10997,7 @@
             "fireAmount": 0,
             "reloadTime": 0.0,
             "burnTime": 300.0,
-            "burnRestartTime": 300.0,
+            "burnRestartTime": 5.0,
             "armourDamageReduction": 0.0,
             "canRepair": false,
             "hitPointsPerRepair": 0,
@@ -13453,6 +13460,14 @@
             "y": 0.0
           },
           "typeId": 47
+        },
+        {
+          "$type": "BuildingPortExpeditionDataInfo, Game",
+          "supportedExpeditionIds": [
+            0,
+            1
+          ],
+          "typeId": 32
         }
       ],
       "category": 6
@@ -13485,7 +13500,7 @@
             "fireAmount": 0,
             "reloadTime": 0.0,
             "burnTime": 300.0,
-            "burnRestartTime": 300.0,
+            "burnRestartTime": 5.0,
             "armourDamageReduction": 0.0,
             "canRepair": false,
             "hitPointsPerRepair": 0,
@@ -20942,6 +20957,9 @@
             "$type": "BuildingProductionRoadImproverDataInfo, Game",
             "roadTypeId": 3,
             "pathTypeId": 2,
+            "workValuePerItems": 6,
+            "workValueForRoad": 3,
+            "workValueForPath": 2,
             "processTime": 10.0,
             "minProcessTime": -1.0,
             "additionalTime": 10.0,
@@ -21003,6 +21021,9 @@
             "$type": "BuildingProductionRoadImproverDataInfo, Game",
             "roadTypeId": 5,
             "pathTypeId": 4,
+            "workValuePerItems": 6,
+            "workValueForRoad": 3,
+            "workValueForPath": 2,
             "processTime": 10.0,
             "minProcessTime": -1.0,
             "additionalTime": 10.0,
@@ -21561,7 +21582,16 @@
           "heightOffset": 0,
           "isBypassVerify": false,
           "trackDirections": [],
-          "inaccessibleDirections": [],
+          "inaccessibleDirections": [
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -1
+            }
+          ],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
           "heightLeeway": 12
@@ -21777,7 +21807,31 @@
               "x": 0,
               "y": 0
             },
+            "subX": -0.25,
+            "subY": 0.0,
+            "rotationY": 0.0
+          },
+          "workLayerOffset": {
+            "coord": {
+              "x": 0,
+              "y": 0
+            },
             "subX": 0.0,
+            "subY": 0.0,
+            "rotationY": 0.0
+          },
+          "homeLayerOffsetDict": {},
+          "workLayerOffsetDict": {}
+        },
+        {
+          "unitTypeId": 1,
+          "isInitial": true,
+          "homeLayerOffset": {
+            "coord": {
+              "x": 0,
+              "y": 0
+            },
+            "subX": 0.25,
             "subY": 0.0,
             "rotationY": 0.0
           },
@@ -28533,7 +28587,7 @@
             "fireAmount": 0,
             "reloadTime": 0.0,
             "burnTime": 300.0,
-            "burnRestartTime": 300.0,
+            "burnRestartTime": 5.0,
             "armourDamageReduction": 0.0,
             "canRepair": true,
             "hitPointsPerRepair": 10,
@@ -28624,7 +28678,7 @@
             "fireAmount": 6,
             "reloadTime": 15.0,
             "burnTime": 300.0,
-            "burnRestartTime": 300.0,
+            "burnRestartTime": 5.0,
             "armourDamageReduction": 0.0,
             "canRepair": true,
             "hitPointsPerRepair": 20,
@@ -28738,7 +28792,7 @@
             "fireAmount": 6,
             "reloadTime": 20.0,
             "burnTime": 300.0,
-            "burnRestartTime": 300.0,
+            "burnRestartTime": 5.0,
             "armourDamageReduction": 0.0,
             "canRepair": true,
             "hitPointsPerRepair": 40,

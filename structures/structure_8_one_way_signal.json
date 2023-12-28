@@ -1,11 +1,14 @@
 {
+  "$type": "OneWaySignInfo, Game",
   "typeId": 8,
   "category": 0,
   "occupierType": 2,
   "baseOffsets": [
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 0,
         "y": 0
       },

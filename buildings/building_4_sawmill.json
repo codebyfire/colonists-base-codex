@@ -134,7 +134,16 @@
       "heightOffset": 0,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": -1
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightLeeway": 12
@@ -350,7 +359,31 @@
           "x": 0,
           "y": 0
         },
+        "subX": -0.25,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
         "subX": 0.0,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    },
+    {
+      "unitTypeId": 1,
+      "isInitial": true,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.25,
         "subY": 0.0,
         "rotationY": 0.0
       },

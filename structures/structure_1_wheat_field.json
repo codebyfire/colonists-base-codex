@@ -1,4 +1,5 @@
 {
+  "$type": "PlantableFieldInfo, Game",
   "seedTime": 5.0,
   "growthTime": 45.0,
   "harvestTileTime": 0.7,
@@ -9,13 +10,16 @@
   "occupierType": 0,
   "baseOffsets": [
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 0,
         "y": 0
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -25,6 +29,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -49,13 +54,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 0,
         "y": 1
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -65,6 +73,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -89,13 +98,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 0,
         "y": 2
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -105,6 +117,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -129,13 +142,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 0,
         "y": 3
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -145,6 +161,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -169,13 +186,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 1,
         "y": 0
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -185,6 +205,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -209,13 +230,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 1,
         "y": 1
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -225,6 +249,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -249,13 +274,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 1,
         "y": 2
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -265,6 +293,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -289,13 +318,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 1,
         "y": 3
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -305,6 +337,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -329,13 +362,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 2,
         "y": 0
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -345,6 +381,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -369,13 +406,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 2,
         "y": 1
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -385,6 +425,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -409,13 +450,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 2,
         "y": 2
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -425,6 +469,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -449,13 +494,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 2,
         "y": 3
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -465,6 +513,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -489,13 +538,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 3,
         "y": 0
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -505,6 +557,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -529,13 +582,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 3,
         "y": 1
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -545,6 +601,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -569,13 +626,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 3,
         "y": 2
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -585,6 +645,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,
@@ -609,13 +670,16 @@
       "heightLeeway": -1
     },
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 3,
         "y": 3
       },
       "requirements": [
         {
+          "$type": "Requirement, Game",
           "type": 30,
           "compareType": 0,
           "targetId": 0,
@@ -625,6 +689,7 @@
           "amount": 2
         },
         {
+          "$type": "Requirement, Game",
           "type": 27,
           "compareType": 0,
           "targetId": 0,

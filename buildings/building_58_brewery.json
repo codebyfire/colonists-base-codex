@@ -621,7 +621,7 @@
             "x": -2,
             "y": 0
           },
-          "height": 2,
+          "height": 3,
           "centreOffset": {
             "x": 0.0,
             "y": 0.0
@@ -647,7 +647,7 @@
             "x": -2,
             "y": 2
           },
-          "height": 2,
+          "height": 3,
           "centreOffset": {
             "x": 0.35,
             "y": -0.25

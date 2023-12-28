@@ -1,12 +1,15 @@
 {
+  "$type": "TrainPlatformInfo, Game",
   "heightOffset": 2,
   "typeId": 0,
   "category": 0,
   "occupierType": 0,
   "baseOffsets": [
     {
+      "$type": "BuildingBaseOffset, Game",
       "type": 0,
       "coord": {
+        "$type": "FloorIntVector2, Game",
         "x": 0,
         "y": 0
       },
@@ -30,6 +33,7 @@
   ],
   "buildCosts": [
     {
+      "$type": "Cost, Game",
       "itemTypeId": 3,
       "quantity": 1
     }
