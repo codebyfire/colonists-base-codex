@@ -14305,6 +14305,7 @@
           {
             "$type": "BuildingProductionLumberjackDataInfo, Game",
             "radius": 50,
+            "targetFloraIds": null,
             "processTime": 7.5,
             "minProcessTime": -1.0,
             "additionalTime": 7.5,
@@ -14380,6 +14381,7 @@
           {
             "$type": "BuildingProductionLumberjackDataInfo, Game",
             "radius": 50,
+            "targetFloraIds": null,
             "processTime": 4.5,
             "minProcessTime": -1.0,
             "additionalTime": 7.5,
@@ -14459,6 +14461,7 @@
           {
             "$type": "BuildingProductionLumberjackDataInfo, Game",
             "radius": 50,
+            "targetFloraIds": null,
             "processTime": 1.5,
             "minProcessTime": -1.0,
             "additionalTime": 7.5,

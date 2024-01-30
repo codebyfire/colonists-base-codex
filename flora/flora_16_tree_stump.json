@@ -14,9 +14,10 @@
   "isPerpendicular": false,
   "validTerrainTypes": [],
   "plantTimeFactor": 1.0,
-  "heightLeeway": -1,
+  "heightOccupation": -1,
   "isMapEditorPlaceable": false,
   "validTerrainCategoryHash": [],
+  "customResourceYields": null,
   "typeId": 16,
   "componentInfos": []
 }

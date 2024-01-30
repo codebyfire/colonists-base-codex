@@ -109,9 +109,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": 36,
+      "heightOccupation": 36,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 43,
       "componentInfos": []
     },
@@ -178,9 +179,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 44,
       "componentInfos": []
     },
@@ -408,9 +410,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 60,
       "componentInfos": []
     },
@@ -430,12 +433,13 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": 28,
+      "heightOccupation": 28,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [
         0,
         3
       ],
+      "customResourceYields": null,
       "typeId": 2,
       "componentInfos": []
     },
@@ -455,9 +459,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": false,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 3,
       "componentInfos": []
     },
@@ -477,9 +482,10 @@
       "isPerpendicular": true,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 4,
       "componentInfos": []
     },
@@ -499,12 +505,13 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": 34,
+      "heightOccupation": 34,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [
         0,
         3
       ],
+      "customResourceYields": null,
       "typeId": 7,
       "componentInfos": []
     },
@@ -524,11 +531,12 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 3.0,
-      "heightLeeway": 8,
+      "heightOccupation": 8,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [
         1
       ],
+      "customResourceYields": null,
       "typeId": 8,
       "componentInfos": []
     },
@@ -548,12 +556,13 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.5,
-      "heightLeeway": 20,
+      "heightOccupation": 20,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [
         0,
         1
       ],
+      "customResourceYields": null,
       "typeId": 11,
       "componentInfos": []
     },
@@ -573,9 +582,10 @@
       "isPerpendicular": true,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 13,
       "componentInfos": []
     },
@@ -595,9 +605,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": false,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 15,
       "componentInfos": []
     },
@@ -617,9 +628,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": false,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 16,
       "componentInfos": []
     },
@@ -639,9 +651,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": false,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 19,
       "componentInfos": []
     },
@@ -661,11 +674,12 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.5,
-      "heightLeeway": 5,
+      "heightOccupation": 5,
       "isMapEditorPlaceable": false,
       "validTerrainCategoryHash": [
         3
       ],
+      "customResourceYields": null,
       "typeId": 66,
       "componentInfos": []
     },
@@ -908,9 +922,10 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightLeeway": -1,
+      "heightOccupation": -1,
       "isMapEditorPlaceable": false,
       "validTerrainCategoryHash": [],
+      "customResourceYields": null,
       "typeId": 100,
       "componentInfos": []
     }
