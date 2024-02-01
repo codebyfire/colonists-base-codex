@@ -270,5 +270,7 @@
       "structureId": 9,
       "dynamicFloorId": 1
     }
-  ]
+  ],
+  "detailDarkness": 1.0,
+  "waterFoamColor": "FFFFFF"
 }
