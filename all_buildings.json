@@ -7459,6 +7459,15 @@
               "x": -1,
               "y": 4
             },
+            "fisherWorkingTileOffset": {
+              "coord": {
+                "x": -1,
+                "y": 3
+              },
+              "subX": 0.0,
+              "subY": 0.45,
+              "rotationY": 0.0
+            },
             "intoProcessTime": 1.75,
             "outOfProcessTime": 6.0,
             "processTime": 12.0,
@@ -9022,11 +9031,11 @@
             "$type": "BuildingProductionForestryDataInfo, Game",
             "plantableFloraSpecs": [
               {
-                "floraTypeId": 2,
+                "floraTypeId": 7,
                 "requirements": null
               },
               {
-                "floraTypeId": 7,
+                "floraTypeId": 2,
                 "requirements": null
               },
               {

@@ -19,11 +19,11 @@
         "$type": "BuildingProductionForestryDataInfo, Game",
         "plantableFloraSpecs": [
           {
-            "floraTypeId": 2,
+            "floraTypeId": 7,
             "requirements": null
           },
           {
-            "floraTypeId": 7,
+            "floraTypeId": 2,
             "requirements": null
           },
           {
