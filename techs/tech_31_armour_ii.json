@@ -1,5 +1,5 @@
 {
-  "damageReductionFactor": 0.4,
+  "damageReductionMultiplier": 0.6,
   "typeId": 31,
   "category": 1,
   "researchBuildingAges": [
@@ -34,6 +34,7 @@
   "researchTime": 300.0,
   "isAvailable": true,
   "isPreResearched": false,
+  "repeatAmount": 0,
   "gridPos": {
     "x": 0,
     "y": 0

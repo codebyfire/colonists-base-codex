@@ -18,6 +18,7 @@
   "researchTime": 180.0,
   "isAvailable": true,
   "isPreResearched": false,
+  "repeatAmount": 0,
   "gridPos": {
     "x": 0,
     "y": 5

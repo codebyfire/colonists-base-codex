@@ -72,6 +72,8 @@
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": null,
         "typeId": 113
       }
     ]
@@ -93,12 +95,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -116,6 +121,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -134,7 +140,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 8
+      "heightOccupation": 8,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -152,6 +160,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -166,7 +175,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -184,6 +195,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -202,7 +214,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -220,6 +234,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -234,7 +249,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 8
+      "heightOccupation": 8,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -252,6 +269,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -266,7 +284,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     }
   ],
   "doesHeightRequireModulus2": false,
@@ -334,7 +354,8 @@
     "rotationY": 0.0
   },
   "constructionSiteWorkerSubLocs": [],
-  "doesRequireLandOwnership": true,
+  "zzz_doesRequireLandOwnership": true,
+  "territoryOwnershipRequirementType": 0,
   "componentInfos": [
     {
       "$type": "BuildingPriorityLayersDataInfo, Game",

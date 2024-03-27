@@ -19,7 +19,8 @@
           "compareType": 0,
           "targetId": 0,
           "matchIdHash": [
-            0
+            0,
+            4
           ],
           "amount": 2
         },
@@ -41,12 +42,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     }
   ],
   "buildCosts": [],

@@ -1,5 +1,5 @@
 {
-  "multiplier": 1.0,
+  "multiplier": 2.0,
   "typeId": 7,
   "category": 0,
   "researchBuildingAges": [
@@ -34,6 +34,7 @@
   "researchTime": 360.0,
   "isAvailable": true,
   "isPreResearched": false,
+  "repeatAmount": 0,
   "gridPos": {
     "x": 0,
     "y": -6

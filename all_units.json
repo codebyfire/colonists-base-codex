@@ -407,6 +407,91 @@
           "typeId": 6
         }
       ]
+    },
+    {
+      "pickUpTime": 1.0,
+      "dropOffTime": 1.0,
+      "utilityDropOff2Time": 0.7,
+      "utilityDropOff1Time": 0.5,
+      "utilityDropOff0Time": 0.3,
+      "blockedCheckInterval": 5.0,
+      "typeId": 27,
+      "componentInfos": [
+        {
+          "$type": "EntityLocomotorDataInfo, Game",
+          "maxSpeed": 0.03,
+          "accelerationFactor": 1.0,
+          "typeId": 6
+        }
+      ]
+    },
+    {
+      "pickUpTime": 1.0,
+      "dropOffTime": 1.0,
+      "utilityDropOff2Time": 0.7,
+      "utilityDropOff1Time": 0.5,
+      "utilityDropOff0Time": 0.3,
+      "blockedCheckInterval": 5.0,
+      "typeId": 14,
+      "componentInfos": [
+        {
+          "$type": "EntityLocomotorDataInfo, Game",
+          "maxSpeed": 0.025,
+          "accelerationFactor": 1.0,
+          "typeId": 6
+        }
+      ]
+    },
+    {
+      "pickUpTime": 1.0,
+      "dropOffTime": 1.0,
+      "utilityDropOff2Time": 0.7,
+      "utilityDropOff1Time": 0.5,
+      "utilityDropOff0Time": 0.3,
+      "blockedCheckInterval": 5.0,
+      "typeId": 28,
+      "componentInfos": [
+        {
+          "$type": "EntityLocomotorDataInfo, Game",
+          "maxSpeed": 0.04,
+          "accelerationFactor": 1.0,
+          "typeId": 6
+        }
+      ]
+    },
+    {
+      "pickUpTime": 1.0,
+      "dropOffTime": 1.0,
+      "utilityDropOff2Time": 0.7,
+      "utilityDropOff1Time": 0.5,
+      "utilityDropOff0Time": 0.3,
+      "blockedCheckInterval": 5.0,
+      "typeId": 29,
+      "componentInfos": [
+        {
+          "$type": "EntityLocomotorDataInfo, Game",
+          "maxSpeed": 0.025,
+          "accelerationFactor": 1.0,
+          "typeId": 6
+        }
+      ]
+    },
+    {
+      "pickUpTime": 1.0,
+      "dropOffTime": 1.0,
+      "utilityDropOff2Time": 0.7,
+      "utilityDropOff1Time": 0.5,
+      "utilityDropOff0Time": 0.3,
+      "blockedCheckInterval": 5.0,
+      "typeId": 30,
+      "componentInfos": [
+        {
+          "$type": "EntityLocomotorDataInfo, Game",
+          "maxSpeed": 0.02,
+          "accelerationFactor": 1.0,
+          "typeId": 6
+        }
+      ]
     }
   ],
   "disabledUnitIds": []

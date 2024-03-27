@@ -50,6 +50,8 @@
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": null,
         "typeId": 110
       },
       {
@@ -95,15 +97,15 @@
         "$type": "BuildingProductionLumberjackDataInfo, Game",
         "radius": 50,
         "targetFloraIds": null,
-        "processTime": 4.5,
+        "processTime": 8.5,
         "minProcessTime": -1.0,
-        "additionalTime": 7.5,
+        "additionalTime": 8.2,
         "itemStackGroupsProduced": [
           {
             "stacks": [
               {
                 "itemTypeId": 2,
-                "quantity": 1
+                "quantity": 2
               }
             ],
             "id": 0
@@ -126,6 +128,8 @@
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": null,
         "typeId": 110
       },
       {
@@ -175,15 +179,15 @@
         "$type": "BuildingProductionLumberjackDataInfo, Game",
         "radius": 50,
         "targetFloraIds": null,
-        "processTime": 1.5,
+        "processTime": 9.0,
         "minProcessTime": -1.0,
-        "additionalTime": 7.5,
+        "additionalTime": 9.0,
         "itemStackGroupsProduced": [
           {
             "stacks": [
               {
                 "itemTypeId": 2,
-                "quantity": 1
+                "quantity": 3
               }
             ],
             "id": 0
@@ -206,6 +210,8 @@
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": null,
         "typeId": 110
       },
       {
@@ -239,6 +245,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -249,7 +256,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -267,6 +276,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -277,7 +287,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -295,6 +307,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -309,7 +322,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 23
+      "heightOccupation": 23,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -327,6 +342,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -341,7 +357,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -359,6 +377,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -369,7 +388,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -387,6 +408,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -401,7 +423,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     }
   ],
   "doesHeightRequireModulus2": false,
@@ -488,7 +512,8 @@
       "rotationY": 0.0
     }
   ],
-  "doesRequireLandOwnership": true,
+  "zzz_doesRequireLandOwnership": true,
+  "territoryOwnershipRequirementType": 0,
   "componentInfos": [
     {
       "$type": "BuildingPriorityLayersDataInfo, Game",
@@ -565,7 +590,7 @@
             "x": -1,
             "y": 0
           },
-          "height": 2,
+          "height": 3,
           "centreOffset": {
             "x": 0.0,
             "y": 0.0
@@ -591,7 +616,7 @@
             "x": -1,
             "y": 1
           },
-          "height": 2,
+          "height": 3,
           "centreOffset": {
             "x": 0.0,
             "y": 0.0
@@ -617,7 +642,7 @@
             "x": 0,
             "y": 1
           },
-          "height": 2,
+          "height": 3,
           "centreOffset": {
             "x": 0.0,
             "y": 0.0
@@ -643,7 +668,7 @@
             "x": 0,
             "y": 2
           },
-          "height": 2,
+          "height": 3,
           "centreOffset": {
             "x": 0.0,
             "y": 0.0

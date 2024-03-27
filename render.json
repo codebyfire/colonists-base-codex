@@ -113,12 +113,32 @@
       "color": "5E5B55"
     },
     {
+      "terrainId": 22,
+      "color": "4F4E4B"
+    },
+    {
       "terrainId": 11,
       "color": "3A3A3A"
     },
     {
       "terrainId": 5,
       "color": "DFF5FF"
+    },
+    {
+      "terrainId": 20,
+      "color": "1C0E00"
+    },
+    {
+      "terrainId": 21,
+      "color": "271500"
+    },
+    {
+      "terrainId": 19,
+      "color": "A09630"
+    },
+    {
+      "terrainId": 23,
+      "color": "949A28"
     }
   ],
   "terrainTypeDetailSpecs": [
@@ -234,6 +254,42 @@
       ]
     },
     {
+      "terrainId": 11,
+      "frequency": 0.1,
+      "detailIds": [
+        10,
+        11,
+        12,
+        60,
+        61,
+        20,
+        90,
+        91,
+        92,
+        93,
+        95,
+        75
+      ]
+    },
+    {
+      "terrainId": 22,
+      "frequency": 0.1,
+      "detailIds": [
+        10,
+        11,
+        12,
+        60,
+        61,
+        20,
+        90,
+        91,
+        92,
+        93,
+        95,
+        75
+      ]
+    },
+    {
       "terrainId": 16,
       "frequency": 0.1,
       "detailIds": [
@@ -242,6 +298,74 @@
         12,
         50,
         51
+      ]
+    },
+    {
+      "terrainId": 19,
+      "frequency": 0.2,
+      "detailIds": [
+        40,
+        44,
+        11,
+        12,
+        24,
+        22,
+        31,
+        32,
+        33,
+        75,
+        10,
+        61,
+        72
+      ]
+    },
+    {
+      "terrainId": 23,
+      "frequency": 0.2,
+      "detailIds": [
+        41,
+        42,
+        11,
+        12,
+        24,
+        22,
+        31,
+        32,
+        33,
+        75,
+        10
+      ]
+    },
+    {
+      "terrainId": 20,
+      "frequency": 0.25,
+      "detailIds": [
+        30,
+        31,
+        32,
+        65,
+        66,
+        85,
+        86,
+        22,
+        24,
+        90
+      ]
+    },
+    {
+      "terrainId": 21,
+      "frequency": 0.25,
+      "detailIds": [
+        30,
+        31,
+        32,
+        65,
+        66,
+        85,
+        86,
+        22,
+        24,
+        90
       ]
     }
   ],

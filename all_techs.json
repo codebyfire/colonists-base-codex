@@ -37,6 +37,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -5
@@ -75,6 +76,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -5
@@ -119,6 +121,7 @@
       "researchTime": 240.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 0
@@ -159,6 +162,7 @@
       "researchTime": 150.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 0
@@ -205,6 +209,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 5
@@ -247,6 +252,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 5
@@ -287,6 +293,7 @@
       "researchTime": 180.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 5
@@ -333,6 +340,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 3
@@ -367,6 +375,7 @@
       "researchTime": 150.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 3
@@ -417,6 +426,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -3
@@ -459,6 +469,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -3
@@ -499,6 +510,7 @@
       "researchTime": 180.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -3
@@ -514,7 +526,7 @@
     },
     {
       "$type": "MilitaryRepairTechInfo, Game",
-      "multiplier": 0.5,
+      "hitPointMultiplier": 1.6,
       "typeId": 37,
       "category": 1,
       "researchBuildingAges": [
@@ -549,6 +561,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -5
@@ -564,7 +577,7 @@
     },
     {
       "$type": "MilitaryRepairTechInfo, Game",
-      "multiplier": 0.3,
+      "hitPointMultiplier": 1.4,
       "typeId": 36,
       "category": 1,
       "researchBuildingAges": [
@@ -599,6 +612,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -5
@@ -620,7 +634,7 @@
     },
     {
       "$type": "MilitaryRepairTechInfo, Game",
-      "multiplier": 0.2,
+      "hitPointMultiplier": 1.2,
       "typeId": 35,
       "category": 1,
       "researchBuildingAges": [
@@ -643,6 +657,7 @@
       "researchTime": 150.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -5
@@ -683,6 +698,7 @@
       "researchTime": 360.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 5
@@ -690,6 +706,12 @@
       "gridLines": [
         {
           "x": -6,
+          "y": 5,
+          "width": 5,
+          "height": 0
+        },
+        {
+          "x": 1,
           "y": 5,
           "width": 5,
           "height": 0
@@ -715,6 +737,7 @@
       "researchTime": 240.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 5
@@ -730,7 +753,7 @@
     },
     {
       "$type": "EngineeringTechInfo, Game",
-      "vehicleSpeedIncreaseMultiplier": 1.5,
+      "vehicleSpeedIncreaseMultiplier": 1.4,
       "typeId": 72,
       "category": 8,
       "researchBuildingAges": [
@@ -761,6 +784,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 0
@@ -795,6 +819,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 0
@@ -841,6 +866,7 @@
       "researchTime": 600.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 4
@@ -887,6 +913,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 4
@@ -927,6 +954,7 @@
       "researchTime": 150.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 4
@@ -983,6 +1011,7 @@
       "researchTime": 750.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 3,
         "y": 2
@@ -1038,6 +1067,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -2,
         "y": 5
@@ -1105,6 +1135,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -2,
         "y": -1
@@ -1163,6 +1194,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 3,
         "y": 2
@@ -1220,6 +1252,7 @@
       "researchTime": 180.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -2,
         "y": -1
@@ -1271,6 +1304,7 @@
       "researchTime": 180.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -2,
         "y": 5
@@ -1341,6 +1375,7 @@
       "researchTime": 180.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 3,
         "y": 2
@@ -1386,6 +1421,7 @@
       "researchTime": 90.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -2,
         "y": -1
@@ -1419,6 +1455,7 @@
       "researchTime": 90.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -2,
         "y": 5
@@ -1434,7 +1471,7 @@
     },
     {
       "$type": "ConstructionSpeedTechInfo, Game",
-      "multiplier": 1.0,
+      "multiplier": 2.0,
       "typeId": 7,
       "category": 0,
       "researchBuildingAges": [
@@ -1469,6 +1506,7 @@
       "researchTime": 360.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -6
@@ -1484,7 +1522,7 @@
     },
     {
       "$type": "ConstructionSpeedTechInfo, Game",
-      "multiplier": 0.5,
+      "multiplier": 1.5,
       "typeId": 6,
       "category": 0,
       "researchBuildingAges": [
@@ -1515,6 +1553,7 @@
       "researchTime": 270.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -6
@@ -1536,7 +1575,7 @@
     },
     {
       "$type": "ConstructionSpeedTechInfo, Game",
-      "multiplier": 0.2,
+      "multiplier": 1.2,
       "typeId": 5,
       "category": 0,
       "researchBuildingAges": [
@@ -1559,6 +1598,7 @@
       "researchTime": 180.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -6
@@ -1609,6 +1649,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 4,
         "y": 5
@@ -1652,6 +1693,7 @@
       "researchTime": 360.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 5
@@ -1694,6 +1736,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -4,
         "y": 5
@@ -1741,6 +1784,7 @@
       "researchTime": 360.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -5
@@ -1780,6 +1824,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": -5
@@ -1826,6 +1871,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 4,
         "y": 5
@@ -1865,6 +1911,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 5
@@ -1903,6 +1950,7 @@
       "researchTime": 150.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -4,
         "y": 5
@@ -1918,7 +1966,7 @@
     },
     {
       "$type": "ArmourTechInfo, Game",
-      "damageReductionFactor": 0.6,
+      "damageReductionMultiplier": 0.4,
       "typeId": 32,
       "category": 1,
       "researchBuildingAges": [
@@ -1953,6 +2001,7 @@
       "researchTime": 450.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 0
@@ -1968,7 +2017,7 @@
     },
     {
       "$type": "ArmourTechInfo, Game",
-      "damageReductionFactor": 0.4,
+      "damageReductionMultiplier": 0.6,
       "typeId": 31,
       "category": 1,
       "researchBuildingAges": [
@@ -2003,6 +2052,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 0
@@ -2024,7 +2074,7 @@
     },
     {
       "$type": "ArmourTechInfo, Game",
-      "damageReductionFactor": 0.2,
+      "damageReductionMultiplier": 0.8,
       "typeId": 30,
       "category": 1,
       "researchBuildingAges": [
@@ -2047,6 +2097,7 @@
       "researchTime": 150.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 0,
         "y": 0
@@ -2088,6 +2139,7 @@
       "researchTime": 360.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 3,
         "y": -5
@@ -2129,6 +2181,7 @@
       "researchTime": 300.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": 3,
         "y": -1
@@ -2162,6 +2215,7 @@
       "researchTime": 240.0,
       "isAvailable": true,
       "isPreResearched": false,
+      "repeatAmount": 0,
       "gridPos": {
         "x": -3,
         "y": -3

@@ -43,12 +43,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -87,12 +90,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -131,12 +137,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -175,12 +184,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -219,12 +231,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -263,12 +278,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -307,12 +325,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -351,12 +372,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -395,12 +419,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -439,12 +466,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -483,12 +513,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -527,12 +560,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -571,12 +607,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -615,12 +654,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -659,12 +701,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "$type": "BuildingBaseOffset, Game",
@@ -703,12 +748,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": -1
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     }
   ],
   "buildCosts": [],

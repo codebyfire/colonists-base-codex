@@ -35,7 +35,7 @@
         "reloadTime": 0.0,
         "burnTime": 300.0,
         "burnRestartTime": 5.0,
-        "armourDamageReduction": 0.0,
+        "armourDamageReductionMultiplier": 1.0,
         "canRepair": true,
         "hitPointsPerRepair": 10,
         "repairItemRequirements": [
@@ -44,7 +44,7 @@
             "amount": 1
           }
         ],
-        "repairTime": 30.0,
+        "repairTime": 15.0,
         "fireLocations": [],
         "targetLocations": [
           {
@@ -126,9 +126,9 @@
         "reloadTime": 15.0,
         "burnTime": 300.0,
         "burnRestartTime": 5.0,
-        "armourDamageReduction": 0.0,
+        "armourDamageReductionMultiplier": 1.0,
         "canRepair": true,
-        "hitPointsPerRepair": 20,
+        "hitPointsPerRepair": 15,
         "repairItemRequirements": [
           {
             "itemTypeId": 5,
@@ -139,7 +139,7 @@
             "amount": 1
           }
         ],
-        "repairTime": 25.0,
+        "repairTime": 15.0,
         "fireLocations": [
           {
             "coord": {
@@ -237,12 +237,12 @@
         "fireTime": 0.15,
         "fireInterval": 0.0,
         "fireAmount": 6,
-        "reloadTime": 20.0,
+        "reloadTime": 15.0,
         "burnTime": 300.0,
         "burnRestartTime": 5.0,
-        "armourDamageReduction": 0.0,
+        "armourDamageReductionMultiplier": 1.0,
         "canRepair": true,
-        "hitPointsPerRepair": 40,
+        "hitPointsPerRepair": 20,
         "repairItemRequirements": [
           {
             "itemTypeId": 34,
@@ -307,6 +307,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -317,7 +318,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -335,12 +338,24 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": -1
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -366,6 +381,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -384,7 +400,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 26
+      "heightOccupation": 26,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -402,6 +420,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -420,7 +439,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     }
   ],
   "doesHeightRequireModulus2": false,
@@ -568,7 +589,8 @@
     "rotationY": 0.0
   },
   "constructionSiteWorkerSubLocs": [],
-  "doesRequireLandOwnership": true,
+  "zzz_doesRequireLandOwnership": true,
+  "territoryOwnershipRequirementType": 0,
   "componentInfos": [
     {
       "$type": "BuildingStorageConstructionIncomingDataInfo, Game",

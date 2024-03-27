@@ -12,7 +12,8 @@
   "length": 3,
   "defaultMaximumDockedLength": 20,
   "validExpeditionBuildingHash": [
-    22
+    22,
+    71
   ],
   "componentInfos": [
     {

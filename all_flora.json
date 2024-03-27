@@ -1,7 +1,345 @@
 {
   "flora": [
     {
+      "category": 6,
+      "colourPaletteCategory": 0,
+      "growthTime": 60.0,
+      "initGrowth": 0.0,
+      "maxSubPositionOffset": 0.0,
+      "minScale": 1.0,
+      "maxScale": 1.0,
+      "minPlantScale": 1.0,
+      "maxPlantScale": 1.0,
+      "can360Rotate": false,
+      "canHaveSubLoc": true,
+      "occupierType": 0,
+      "baseOffsets": [
+        {
+          "type": 0,
+          "coord": {
+            "x": -1,
+            "y": -1
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 0,
+            "y": -1
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 1,
+            "y": -1
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": -1,
+            "y": 0
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 0,
+            "y": 0
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 1,
+            "y": 0
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": -1,
+            "y": 1
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 0,
+            "y": 1
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 1,
+            "y": 1
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": -1,
+            "y": 2
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 0,
+            "y": 2
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        },
+        {
+          "type": 0,
+          "coord": {
+            "x": 1,
+            "y": 2
+          },
+          "requirements": [],
+          "isOccupy": true,
+          "isOwnedTerritoryRequired": true,
+          "structureToCreate": 255,
+          "layerTypeToCreate": 255,
+          "customLayerHeights": null,
+          "autoAdjustType": 0,
+          "isPassable": true,
+          "sidesToAdjust": [],
+          "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
+          "isBypassVerify": false,
+          "trackDirections": [],
+          "inaccessibleDirections": [],
+          "doesNeedUnoccupied": true,
+          "showFootprintHighlight": true,
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
+        }
+      ],
+      "isPerpendicular": false,
+      "validTerrainTypes": [],
+      "plantTimeFactor": 1.0,
+      "heightOccupation": -1,
+      "isMapEditorPlaceable": false,
+      "validTerrainCategoryHash": [],
+      "customResourceYields": null,
+      "typeId": 120,
+      "componentInfos": []
+    },
+    {
       "category": 2,
+      "colourPaletteCategory": 2,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.0,
@@ -29,12 +367,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -52,12 +393,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -75,12 +419,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -98,12 +445,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         }
       ],
       "isPerpendicular": false,
@@ -118,6 +468,7 @@
     },
     {
       "category": 2,
+      "colourPaletteCategory": 2,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.0,
@@ -145,12 +496,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -168,12 +522,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         }
       ],
       "isPerpendicular": false,
@@ -188,6 +545,7 @@
     },
     {
       "category": 2,
+      "colourPaletteCategory": 2,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.0,
@@ -215,12 +573,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -238,12 +599,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -261,12 +625,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -284,12 +651,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -307,12 +677,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -330,12 +703,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -353,12 +729,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -376,12 +755,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -399,12 +781,15 @@
           "isPassable": false,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         }
       ],
       "isPerpendicular": false,
@@ -419,7 +804,8 @@
     },
     {
       "category": 1,
-      "growthTime": 360.0,
+      "colourPaletteCategory": 1,
+      "growthTime": 240.0,
       "initGrowth": 0.3,
       "maxSubPositionOffset": 0.2,
       "minScale": 1.0,
@@ -437,6 +823,7 @@
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [
         0,
+        4,
         3
       ],
       "customResourceYields": null,
@@ -445,6 +832,7 @@
     },
     {
       "category": 0,
+      "colourPaletteCategory": 1,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.3,
@@ -468,6 +856,7 @@
     },
     {
       "category": 3,
+      "colourPaletteCategory": 2,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.5,
@@ -491,6 +880,7 @@
     },
     {
       "category": 1,
+      "colourPaletteCategory": 1,
       "growthTime": 240.0,
       "initGrowth": 0.3,
       "maxSubPositionOffset": 0.25,
@@ -509,6 +899,7 @@
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [
         0,
+        4,
         3
       ],
       "customResourceYields": null,
@@ -517,6 +908,7 @@
     },
     {
       "category": 1,
+      "colourPaletteCategory": 1,
       "growthTime": 1800.0,
       "initGrowth": 0.3,
       "maxSubPositionOffset": 0.25,
@@ -542,6 +934,7 @@
     },
     {
       "category": 1,
+      "colourPaletteCategory": 1,
       "growthTime": 900.0,
       "initGrowth": 0.25,
       "maxSubPositionOffset": 0.35,
@@ -560,6 +953,7 @@
       "isMapEditorPlaceable": true,
       "validTerrainCategoryHash": [
         0,
+        4,
         1
       ],
       "customResourceYields": null,
@@ -568,6 +962,7 @@
     },
     {
       "category": 3,
+      "colourPaletteCategory": 1,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.5,
@@ -591,6 +986,7 @@
     },
     {
       "category": 0,
+      "colourPaletteCategory": 1,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.3,
@@ -614,6 +1010,7 @@
     },
     {
       "category": 0,
+      "colourPaletteCategory": 1,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.3,
@@ -637,6 +1034,7 @@
     },
     {
       "category": 0,
+      "colourPaletteCategory": 1,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.3,
@@ -660,6 +1058,7 @@
     },
     {
       "category": 5,
+      "colourPaletteCategory": 0,
       "growthTime": -1.0,
       "initGrowth": 1.0,
       "maxSubPositionOffset": 0.2,
@@ -700,6 +1099,7 @@
         "y": -4
       },
       "category": 4,
+      "colourPaletteCategory": 0,
       "growthTime": -1.0,
       "initGrowth": 0.0,
       "maxSubPositionOffset": 0.0,
@@ -727,12 +1127,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -750,12 +1153,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -773,12 +1179,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -796,12 +1205,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -819,12 +1231,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -842,12 +1257,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -865,12 +1283,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -888,12 +1309,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         },
         {
           "type": 0,
@@ -911,12 +1335,15 @@
           "isPassable": true,
           "sidesToAdjust": [],
           "heightOffset": 0,
+          "isBypassSteepnessCheck": false,
           "isBypassVerify": false,
           "trackDirections": [],
           "inaccessibleDirections": [],
           "doesNeedUnoccupied": true,
           "showFootprintHighlight": true,
-          "heightLeeway": -1
+          "heightOccupation": -1,
+          "isPlatformTrack": false,
+          "territoryOwnershipRequirementType": 0
         }
       ],
       "isPerpendicular": false,

@@ -23,7 +23,8 @@
           {
             "naturalResourceTypeId": 0,
             "processTime": 15.0,
-            "groupId": 0
+            "groupId": 0,
+            "harvestAmount": 1
           }
         ],
         "processTime": -1.0,
@@ -34,7 +35,7 @@
             "stacks": [
               {
                 "itemTypeId": 253,
-                "quantity": 1
+                "quantity": 0
               }
             ],
             "id": 0
@@ -57,6 +58,8 @@
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": null,
         "typeId": 111
       },
       {
@@ -112,23 +115,27 @@
         "mineableNaturalResourceInfos": [
           {
             "naturalResourceTypeId": 0,
-            "processTime": 10.0,
-            "groupId": 0
+            "processTime": 15.0,
+            "groupId": 0,
+            "harvestAmount": 2
           },
           {
             "naturalResourceTypeId": 2,
             "processTime": 15.0,
-            "groupId": 1
+            "groupId": 1,
+            "harvestAmount": 1
           },
           {
             "naturalResourceTypeId": 1,
             "processTime": 15.0,
-            "groupId": 1
+            "groupId": 1,
+            "harvestAmount": 1
           },
           {
             "naturalResourceTypeId": 5,
             "processTime": 15.0,
-            "groupId": 1
+            "groupId": 1,
+            "harvestAmount": 1
           }
         ],
         "processTime": -1.0,
@@ -139,7 +146,7 @@
             "stacks": [
               {
                 "itemTypeId": 253,
-                "quantity": 1
+                "quantity": 0
               }
             ],
             "id": 0
@@ -162,6 +169,13 @@
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": [
+          {
+            "storageType": 2,
+            "change": 1
+          }
+        ],
         "typeId": 111
       },
       {
@@ -217,38 +231,45 @@
         "mineableNaturalResourceInfos": [
           {
             "naturalResourceTypeId": 0,
-            "processTime": 5.0,
-            "groupId": 0
+            "processTime": 15.0,
+            "groupId": 0,
+            "harvestAmount": 3
           },
           {
             "naturalResourceTypeId": 2,
-            "processTime": 10.0,
-            "groupId": 1
+            "processTime": 15.0,
+            "groupId": 1,
+            "harvestAmount": 2
           },
           {
             "naturalResourceTypeId": 1,
-            "processTime": 10.0,
-            "groupId": 1
+            "processTime": 15.0,
+            "groupId": 1,
+            "harvestAmount": 2
           },
           {
             "naturalResourceTypeId": 5,
-            "processTime": 10.0,
-            "groupId": 1
+            "processTime": 15.0,
+            "groupId": 1,
+            "harvestAmount": 2
           },
           {
             "naturalResourceTypeId": 6,
             "processTime": 15.0,
-            "groupId": 2
+            "groupId": 2,
+            "harvestAmount": 1
           },
           {
             "naturalResourceTypeId": 3,
             "processTime": 15.0,
-            "groupId": 2
+            "groupId": 2,
+            "harvestAmount": 1
           },
           {
             "naturalResourceTypeId": 4,
             "processTime": 15.0,
-            "groupId": 2
+            "groupId": 2,
+            "harvestAmount": 1
           }
         ],
         "processTime": -1.0,
@@ -259,7 +280,7 @@
             "stacks": [
               {
                 "itemTypeId": 253,
-                "quantity": 1
+                "quantity": 0
               }
             ],
             "id": 0
@@ -282,6 +303,13 @@
         "displayProcessTime": -1.0,
         "workerProductionSpeedBoostFactor": 1.0,
         "activeDirtyType": 0,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": [
+          {
+            "storageType": 2,
+            "change": 1
+          }
+        ],
         "typeId": 111
       },
       {
@@ -315,6 +343,7 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -325,7 +354,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -343,12 +374,15 @@
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -366,6 +400,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -380,7 +415,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 20
+      "heightOccupation": 20,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -398,6 +435,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -412,7 +450,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -430,6 +470,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -440,7 +481,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     },
     {
       "type": 0,
@@ -458,6 +501,7 @@
       "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
       "inaccessibleDirections": [
@@ -472,7 +516,9 @@
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightLeeway": 12
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
     }
   ],
   "doesHeightRequireModulus2": false,
@@ -559,7 +605,8 @@
       "rotationY": 0.0
     }
   ],
-  "doesRequireLandOwnership": true,
+  "zzz_doesRequireLandOwnership": true,
+  "territoryOwnershipRequirementType": 0,
   "componentInfos": [
     {
       "$type": "BuildingPriorityLayersDataInfo, Game",
@@ -662,12 +709,12 @@
             "x": 0,
             "y": 2
           },
-          "height": 1,
+          "height": 2,
           "centreOffset": {
             "x": 0.0,
             "y": 0.0
           },
-          "slotOffset": 0.2,
+          "slotOffset": 0.0,
           "heightOffset": 0.0,
           "restrictedItemTypeId": 254,
           "shelfItemSlotCount": 4
@@ -688,7 +735,7 @@
             "x": 0,
             "y": 2
           },
-          "height": 2,
+          "height": 3,
           "centreOffset": {
             "x": 0.0,
             "y": 0.0

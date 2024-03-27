@@ -12,7 +12,9 @@
     9,
     6,
     8,
+    14,
     7,
+    15,
     12
   ],
   "defaultBuildingConstructionPriorities": [
@@ -23,6 +25,7 @@
     19,
     38,
     21,
+    66,
     2,
     1,
     15,

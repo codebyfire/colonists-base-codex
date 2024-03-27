@@ -10,5 +10,8 @@
     "ARROWS": 0,
     "CANNONBALLS": 1
   },
-  "militaryBuildingMinimumDistanceFixedAmount": 8.0
+  "militaryBuildingMinimumDistanceFixedAmount": 8.0,
+  "minTunnelHeight": 20,
+  "maxTunnelLength": 50,
+  "collapsingMilitaryBuildingRepairMultiplier": 2.0
 }

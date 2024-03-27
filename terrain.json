@@ -29,7 +29,7 @@
     },
     {
       "terrainId": 15,
-      "terrainCategory": 255
+      "terrainCategory": 0
     },
     {
       "terrainId": 2,
@@ -56,8 +56,28 @@
       "terrainCategory": 2
     },
     {
+      "terrainId": 22,
+      "terrainCategory": 2
+    },
+    {
       "terrainId": 5,
       "terrainCategory": 3
+    },
+    {
+      "terrainId": 20,
+      "terrainCategory": 5
+    },
+    {
+      "terrainId": 21,
+      "terrainCategory": 5
+    },
+    {
+      "terrainId": 19,
+      "terrainCategory": 4
+    },
+    {
+      "terrainId": 23,
+      "terrainCategory": 4
     }
   ],
   "biomes": [

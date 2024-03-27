@@ -2,6 +2,6 @@
   "typeId": 6,
   "outputItemTypeId": 35,
   "maxAmount": 10,
-  "heightLeeway": 8,
+  "heightOccupation": 10,
   "componentInfos": []
 }

@@ -1,6 +1,7 @@
 {
   "category": 1,
-  "growthTime": 360.0,
+  "colourPaletteCategory": 1,
+  "growthTime": 240.0,
   "initGrowth": 0.3,
   "maxSubPositionOffset": 0.2,
   "minScale": 1.0,
@@ -18,6 +19,7 @@
   "isMapEditorPlaceable": true,
   "validTerrainCategoryHash": [
     0,
+    4,
     3
   ],
   "customResourceYields": null,

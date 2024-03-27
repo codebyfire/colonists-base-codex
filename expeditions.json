@@ -5,6 +5,9 @@
     },
     "ColonyShipLargeHarbour": {
       "targetBuildingId": 63
+    },
+    "FloatingWatchtower": {
+      "targetBuildingId": 71
     }
   }
 }

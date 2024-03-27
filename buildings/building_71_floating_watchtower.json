@@ -1,18 +1,14 @@
 {
-  "typeId": 22,
+  "typeId": 71,
   "ageComponentsDict": {
     "LEVEL_1": [
       {
         "$type": "BuildingConstructionDataInfo, Game",
-        "time": 60.0,
+        "time": 10.0,
         "costs": [
           {
-            "itemTypeId": 5,
-            "quantity": 8
-          },
-          {
             "itemTypeId": 3,
-            "quantity": 4
+            "quantity": 12
           }
         ],
         "energyCost": 0,
@@ -23,55 +19,76 @@
             "targetId": 50,
             "matchIdHash": null,
             "amount": 0
+          },
+          {
+            "type": 6,
+            "compareType": 0,
+            "targetId": 20,
+            "matchIdHash": null,
+            "amount": 0
           }
         ],
         "typeId": 29
       },
       {
-        "$type": "BuildingStructuresDataInfo, Game",
-        "structureAllowances": [
+        "$type": "BuildingMilitaryDataInfo, Game",
+        "ownershipPower": 8,
+        "ownershipRange": 15,
+        "hitPoints": 400,
+        "canBeAttacked": true,
+        "canAttack": true,
+        "attackRange": 16,
+        "attackRequirements": [
           {
-            "structureTypeId": 5,
-            "amount": 10,
-            "minAmount": -1,
-            "reductionInProcessTime": 0.0,
-            "doesRequiresContinuous": false,
-            "baseCoord": {
-              "x": 0,
-              "y": 0
-            }
+            "type": 6,
+            "compareType": 0,
+            "targetId": 20,
+            "matchIdHash": null,
+            "amount": 0
           }
         ],
-        "typeId": 20
-      },
-      {
-        "$type": "BuildingMilitaryDataInfo, Game",
-        "ownershipPower": 4,
-        "ownershipRange": 7,
-        "hitPoints": -1,
-        "canBeAttacked": false,
-        "canAttack": false,
-        "attackRange": 0,
-        "attackRequirements": [],
-        "attackItemRequirement": null,
-        "preparingFireTime": 0.0,
-        "fireTime": 0.0,
+        "attackItemRequirement": {
+          "itemTypeId": 27,
+          "amount": 1
+        },
+        "preparingFireTime": 0.5,
+        "fireTime": 0.15,
         "fireInterval": 0.0,
-        "fireAmount": 0,
-        "reloadTime": 0.0,
+        "fireAmount": 6,
+        "reloadTime": 15.0,
         "burnTime": 300.0,
         "burnRestartTime": 5.0,
-        "armourDamageReductionMultiplier": 0.0,
-        "canRepair": false,
-        "hitPointsPerRepair": 0,
-        "repairItemRequirements": [],
-        "repairTime": 0.0,
-        "fireLocations": [],
+        "armourDamageReductionMultiplier": 1.0,
+        "canRepair": true,
+        "hitPointsPerRepair": 20,
+        "repairItemRequirements": [
+          {
+            "itemTypeId": 3,
+            "amount": 2
+          }
+        ],
+        "repairTime": 15.0,
+        "fireLocations": [
+          {
+            "coord": {
+              "x": 0,
+              "y": 0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "height": 20
+          }
+        ],
         "targetLocations": [
           {
             "coord": {
               "x": 0,
-              "y": 2
+              "y": 0
             },
             "offset": {
               "x": 0.0,
@@ -98,7 +115,7 @@
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 0,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 1
         }
@@ -108,19 +125,28 @@
       "structureToCreate": 255,
       "layerTypeToCreate": 3,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
+      "autoAdjustType": 1,
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
       "isBypassSteepnessCheck": false,
       "isBypassVerify": false,
       "trackDirections": [],
-      "inaccessibleDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightOccupation": 12,
+      "heightOccupation": 30,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
@@ -132,7 +158,7 @@
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 0,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 1
         }
@@ -142,8 +168,8 @@
       "structureToCreate": 255,
       "layerTypeToCreate": 3,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": false,
+      "autoAdjustType": 1,
+      "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
       "isBypassSteepnessCheck": false,
@@ -153,17 +179,13 @@
         {
           "x": 1,
           "y": 0
-        },
-        {
-          "x": 0,
-          "y": -1
         }
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightOccupation": 12,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
@@ -175,7 +197,7 @@
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 0,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 1
         }
@@ -185,7 +207,7 @@
       "structureToCreate": 255,
       "layerTypeToCreate": 3,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
+      "autoAdjustType": 1,
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
@@ -196,21 +218,13 @@
         {
           "x": -1,
           "y": 0
-        },
-        {
-          "x": 0,
-          "y": -1
-        },
-        {
-          "x": 0,
-          "y": 1
         }
       ],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
       "heightOccupation": 12,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
@@ -222,7 +236,7 @@
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 2,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 0
         }
@@ -232,8 +246,8 @@
       "structureToCreate": 255,
       "layerTypeToCreate": 3,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": true,
+      "autoAdjustType": 1,
+      "isPassable": false,
       "sidesToAdjust": [],
       "heightOffset": 0,
       "isBypassSteepnessCheck": false,
@@ -244,7 +258,7 @@
       "showFootprintHighlight": true,
       "heightOccupation": 12,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
@@ -256,7 +270,7 @@
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 2,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 0
         }
@@ -266,8 +280,128 @@
       "structureToCreate": 255,
       "layerTypeToCreate": 3,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
+      "autoAdjustType": 1,
       "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": true,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": -1,
+        "y": 1
+      },
+      "requirements": [
+        {
+          "type": 2,
+          "compareType": 0,
+          "targetId": 1,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 3,
+      "customLayerHeights": null,
+      "autoAdjustType": 1,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": true,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": -1
+      },
+      "requirements": [
+        {
+          "type": 2,
+          "compareType": 0,
+          "targetId": 1,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 3,
+      "customLayerHeights": null,
+      "autoAdjustType": 1,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": true,
+      "trackDirections": [],
+      "inaccessibleDirections": [],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": 12,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 1
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": -1
+      },
+      "requirements": [
+        {
+          "type": 2,
+          "compareType": 0,
+          "targetId": 1,
+          "matchIdHash": null,
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": false,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 3,
+      "customLayerHeights": null,
+      "autoAdjustType": 1,
+      "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
       "isBypassSteepnessCheck": false,
@@ -283,30 +417,30 @@
       "showFootprintHighlight": true,
       "heightOccupation": 12,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
       "coord": {
         "x": -1,
-        "y": 1
+        "y": -1
       },
       "requirements": [
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 2,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 0
         }
       ],
       "isOccupy": true,
-      "isOwnedTerritoryRequired": true,
+      "isOwnedTerritoryRequired": false,
       "structureToCreate": 255,
       "layerTypeToCreate": 3,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": false,
+      "autoAdjustType": 1,
+      "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
       "isBypassSteepnessCheck": false,
@@ -322,19 +456,19 @@
       "showFootprintHighlight": true,
       "heightOccupation": 12,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
       "coord": {
         "x": 0,
-        "y": 2
+        "y": -2
       },
       "requirements": [
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 2,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 0
         }
@@ -342,9 +476,9 @@
       "isOccupy": true,
       "isOwnedTerritoryRequired": true,
       "structureToCreate": 255,
-      "layerTypeToCreate": 3,
+      "layerTypeToCreate": 255,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
+      "autoAdjustType": 1,
       "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
@@ -354,21 +488,21 @@
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightOccupation": 12,
+      "heightOccupation": -1,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
       "coord": {
         "x": 1,
-        "y": 2
+        "y": -2
       },
       "requirements": [
         {
           "type": 2,
           "compareType": 0,
-          "targetId": 2,
+          "targetId": 1,
           "matchIdHash": null,
           "amount": 0
         }
@@ -376,181 +510,27 @@
       "isOccupy": true,
       "isOwnedTerritoryRequired": true,
       "structureToCreate": 255,
-      "layerTypeToCreate": 3,
+      "layerTypeToCreate": 255,
       "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": false,
+      "autoAdjustType": 1,
+      "isPassable": true,
       "sidesToAdjust": [],
       "heightOffset": 0,
       "isBypassSteepnessCheck": false,
       "isBypassVerify": true,
       "trackDirections": [],
-      "inaccessibleDirections": [
-        {
-          "x": 1,
-          "y": 0
-        },
-        {
-          "x": 0,
-          "y": 1
-        }
-      ],
+      "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightOccupation": 12,
+      "heightOccupation": -1,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     },
     {
       "type": 0,
       "coord": {
         "x": -1,
-        "y": 2
-      },
-      "requirements": [
-        {
-          "type": 2,
-          "compareType": 0,
-          "targetId": 2,
-          "matchIdHash": null,
-          "amount": 0
-        }
-      ],
-      "isOccupy": true,
-      "isOwnedTerritoryRequired": true,
-      "structureToCreate": 255,
-      "layerTypeToCreate": 3,
-      "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": false,
-      "sidesToAdjust": [],
-      "heightOffset": 0,
-      "isBypassSteepnessCheck": false,
-      "isBypassVerify": true,
-      "trackDirections": [],
-      "inaccessibleDirections": [
-        {
-          "x": -1,
-          "y": 0
-        },
-        {
-          "x": 0,
-          "y": 1
-        }
-      ],
-      "doesNeedUnoccupied": true,
-      "showFootprintHighlight": true,
-      "heightOccupation": 12,
-      "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
-    },
-    {
-      "type": 0,
-      "coord": {
-        "x": 0,
-        "y": 3
-      },
-      "requirements": [
-        {
-          "type": 2,
-          "compareType": 0,
-          "targetId": 1,
-          "matchIdHash": null,
-          "amount": 0
-        }
-      ],
-      "isOccupy": false,
-      "isOwnedTerritoryRequired": false,
-      "structureToCreate": 255,
-      "layerTypeToCreate": 3,
-      "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": true,
-      "sidesToAdjust": [],
-      "heightOffset": 0,
-      "isBypassSteepnessCheck": false,
-      "isBypassVerify": true,
-      "trackDirections": [],
-      "inaccessibleDirections": [],
-      "doesNeedUnoccupied": true,
-      "showFootprintHighlight": true,
-      "heightOccupation": 12,
-      "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
-    },
-    {
-      "type": 0,
-      "coord": {
-        "x": 1,
-        "y": 3
-      },
-      "requirements": [
-        {
-          "type": 2,
-          "compareType": 0,
-          "targetId": 1,
-          "matchIdHash": null,
-          "amount": 0
-        }
-      ],
-      "isOccupy": false,
-      "isOwnedTerritoryRequired": false,
-      "structureToCreate": 255,
-      "layerTypeToCreate": 3,
-      "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": true,
-      "sidesToAdjust": [],
-      "heightOffset": 0,
-      "isBypassSteepnessCheck": false,
-      "isBypassVerify": true,
-      "trackDirections": [],
-      "inaccessibleDirections": [],
-      "doesNeedUnoccupied": true,
-      "showFootprintHighlight": true,
-      "heightOccupation": 12,
-      "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
-    },
-    {
-      "type": 0,
-      "coord": {
-        "x": -1,
-        "y": 3
-      },
-      "requirements": [
-        {
-          "type": 2,
-          "compareType": 0,
-          "targetId": 1,
-          "matchIdHash": null,
-          "amount": 0
-        }
-      ],
-      "isOccupy": false,
-      "isOwnedTerritoryRequired": false,
-      "structureToCreate": 255,
-      "layerTypeToCreate": 3,
-      "customLayerHeights": null,
-      "autoAdjustType": 2,
-      "isPassable": true,
-      "sidesToAdjust": [],
-      "heightOffset": 0,
-      "isBypassSteepnessCheck": false,
-      "isBypassVerify": true,
-      "trackDirections": [],
-      "inaccessibleDirections": [],
-      "doesNeedUnoccupied": true,
-      "showFootprintHighlight": true,
-      "heightOccupation": 12,
-      "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
-    },
-    {
-      "type": 0,
-      "coord": {
-        "x": 0,
-        "y": 4
+        "y": -2
       },
       "requirements": [
         {
@@ -576,81 +556,24 @@
       "inaccessibleDirections": [],
       "doesNeedUnoccupied": true,
       "showFootprintHighlight": true,
-      "heightOccupation": 0,
+      "heightOccupation": -1,
       "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
-    },
-    {
-      "type": 0,
-      "coord": {
-        "x": 1,
-        "y": 4
-      },
-      "requirements": [
-        {
-          "type": 2,
-          "compareType": 0,
-          "targetId": 1,
-          "matchIdHash": null,
-          "amount": 0
-        }
-      ],
-      "isOccupy": true,
-      "isOwnedTerritoryRequired": false,
-      "structureToCreate": 255,
-      "layerTypeToCreate": 255,
-      "customLayerHeights": null,
-      "autoAdjustType": 1,
-      "isPassable": true,
-      "sidesToAdjust": [],
-      "heightOffset": 0,
-      "isBypassSteepnessCheck": false,
-      "isBypassVerify": true,
-      "trackDirections": [],
-      "inaccessibleDirections": [],
-      "doesNeedUnoccupied": true,
-      "showFootprintHighlight": true,
-      "heightOccupation": 0,
-      "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
-    },
-    {
-      "type": 0,
-      "coord": {
-        "x": -1,
-        "y": 4
-      },
-      "requirements": [
-        {
-          "type": 2,
-          "compareType": 0,
-          "targetId": 1,
-          "matchIdHash": null,
-          "amount": 0
-        }
-      ],
-      "isOccupy": true,
-      "isOwnedTerritoryRequired": false,
-      "structureToCreate": 255,
-      "layerTypeToCreate": 255,
-      "customLayerHeights": null,
-      "autoAdjustType": 1,
-      "isPassable": true,
-      "sidesToAdjust": [],
-      "heightOffset": 0,
-      "isBypassSteepnessCheck": false,
-      "isBypassVerify": true,
-      "trackDirections": [],
-      "inaccessibleDirections": [],
-      "doesNeedUnoccupied": true,
-      "showFootprintHighlight": true,
-      "heightOccupation": 0,
-      "isPlatformTrack": false,
-      "territoryOwnershipRequirementType": 0
+      "territoryOwnershipRequirementType": 1
     }
   ],
   "doesHeightRequireModulus2": false,
-  "customEntranceDirections": [],
+  "customEntranceDirections": [
+    {
+      "coord": {
+        "x": -2147483648,
+        "y": -2147483648
+      },
+      "dir": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
   "maxAmount": -1,
   "unitPositions": [
     {
@@ -658,11 +581,11 @@
       "isInitial": true,
       "homeLayerOffset": {
         "coord": {
-          "x": -1,
-          "y": 0
+          "x": 0,
+          "y": -1
         },
         "subX": -0.25,
-        "subY": 0.25,
+        "subY": 0.2,
         "rotationY": 0.0
       },
       "workLayerOffset": {
@@ -682,11 +605,11 @@
       "isInitial": true,
       "homeLayerOffset": {
         "coord": {
-          "x": -1,
-          "y": 0
+          "x": 0,
+          "y": -1
         },
         "subX": 0.25,
-        "subY": -0.25,
+        "subY": 0.15,
         "rotationY": 0.0
       },
       "workLayerOffset": {
@@ -702,39 +625,39 @@
       "workLayerOffsetDict": {}
     },
     {
-      "unitTypeId": 1,
-      "isInitial": true,
+      "unitTypeId": 12,
+      "isInitial": false,
       "homeLayerOffset": {
         "coord": {
           "x": -1,
           "y": 0
         },
-        "subX": 0.25,
-        "subY": 0.25,
+        "subX": -0.3,
+        "subY": 0.3,
         "rotationY": 0.0
       },
       "workLayerOffset": {
         "coord": {
           "x": 0,
-          "y": 0
+          "y": -1
         },
         "subX": 0.0,
-        "subY": 0.0,
+        "subY": 0.4,
         "rotationY": 0.0
       },
       "homeLayerOffsetDict": {},
       "workLayerOffsetDict": {}
     },
     {
-      "unitTypeId": 1,
-      "isInitial": true,
+      "unitTypeId": 10,
+      "isInitial": false,
       "homeLayerOffset": {
         "coord": {
-          "x": -1,
+          "x": 0,
           "y": 0
         },
-        "subX": -0.25,
-        "subY": -0.25,
+        "subX": 0.0,
+        "subY": 0.0,
         "rotationY": 0.0
       },
       "workLayerOffset": {
@@ -746,26 +669,82 @@
         "subY": 0.0,
         "rotationY": 0.0
       },
-      "homeLayerOffsetDict": {},
-      "workLayerOffsetDict": {}
+      "homeLayerOffsetDict": {
+        "LEVEL_1": {
+          "coord": {
+            "x": 0,
+            "y": 0
+          },
+          "subX": -0.05,
+          "subY": -0.06,
+          "rotationY": 0.0
+        },
+        "LEVEL_2": {
+          "coord": {
+            "x": 0,
+            "y": 0
+          },
+          "subX": 0.0,
+          "subY": 0.09,
+          "rotationY": 0.0
+        },
+        "LEVEL_3": {
+          "coord": {
+            "x": 0,
+            "y": 0
+          },
+          "subX": 0.15,
+          "subY": -0.175,
+          "rotationY": 0.0
+        }
+      },
+      "workLayerOffsetDict": {
+        "LEVEL_1": {
+          "coord": {
+            "x": 0,
+            "y": 0
+          },
+          "subX": -0.05,
+          "subY": -0.06,
+          "rotationY": 0.0
+        },
+        "LEVEL_2": {
+          "coord": {
+            "x": 0,
+            "y": 0
+          },
+          "subX": 0.0,
+          "subY": 0.09,
+          "rotationY": 0.0
+        },
+        "LEVEL_3": {
+          "coord": {
+            "x": 0,
+            "y": 0
+          },
+          "subX": 0.15,
+          "subY": -0.175,
+          "rotationY": 0.0
+        }
+      }
     }
   ],
   "requirements": [],
   "isAvailable": true,
   "constructionSiteIdleLoc": {
     "coord": {
-      "x": 0,
-      "y": 1
+      "x": 1,
+      "y": 0
     },
-    "subX": 0.0,
-    "subY": -0.25,
+    "subX": 0.25,
+    "subY": 0.0,
     "rotationY": 0.0
   },
   "constructionSiteWorkerSubLocs": [
     {
       "coord": {
-        "x": 0,
-        "y": 1
+        "x": 1,
+        "y": 0
       },
       "subX": -0.2,
       "subY": -0.1,
@@ -773,8 +752,8 @@
     },
     {
       "coord": {
-        "x": 0,
-        "y": 1
+        "x": 1,
+        "y": 0
       },
       "subX": -0.3,
       "subY": 0.1,
@@ -782,7 +761,7 @@
     }
   ],
   "zzz_doesRequireLandOwnership": true,
-  "territoryOwnershipRequirementType": 0,
+  "territoryOwnershipRequirementType": 1,
   "componentInfos": [
     {
       "$type": "BuildingStorageConstructionIncomingDataInfo, Game",
@@ -795,7 +774,7 @@
         {
           "coord": {
             "x": -1,
-            "y": 1
+            "y": 0
           },
           "height": 10,
           "centreOffset": {
@@ -821,7 +800,7 @@
         {
           "coord": {
             "x": 0,
-            "y": 1
+            "y": 0
           },
           "height": 10,
           "centreOffset": {
@@ -956,25 +935,68 @@
       "typeId": 16
     },
     {
-      "$type": "BuildingPortDataInfo, Game",
-      "colonyShipProvisionItems": [
+      "$type": "BuildingStorageIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 1,
+      "storageOffsets": [
         {
-          "itemTypeId": 5,
-          "quantity": 8
-        },
-        {
-          "itemTypeId": 3,
-          "quantity": 4
+          "coord": {
+            "x": 1,
+            "y": 0
+          },
+          "height": 4,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
         }
       ],
+      "typeId": 25
+    },
+    {
+      "$type": "BuildingStorageProductionIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 8,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 0,
+            "y": 1
+          },
+          "height": 2,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.0,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 40
+    },
+    {
+      "$type": "BuildingPortDataInfo, Game",
+      "colonyShipProvisionItems": [],
       "beachLandingShipProvisionItems": [],
       "queueBuoyStartOffset": {
         "x": 0,
-        "y": 6
+        "y": -4
       },
       "queueBuoyCustomSearchOffset": {
         "x": 0,
-        "y": 4
+        "y": -2
       },
       "supportedBoatTypeHash": [
         1
@@ -988,7 +1010,7 @@
       "allowedAmount": 0,
       "zzz_mainDockingOffset": {
         "x": 0,
-        "y": 4
+        "y": 2
       },
       "zzz_mainDockingRotation": {
         "x": 1,
@@ -997,7 +1019,7 @@
       "dockingOffsets": [
         {
           "x": 0,
-          "y": 4
+          "y": -2
         }
       ],
       "dockingRotations": [
@@ -1008,17 +1030,17 @@
       ],
       "visualDockingOffset": {
         "x": 0,
-        "y": 4
+        "y": -2
       },
       "visualPierLoadingOffset": {
         "x": 0,
-        "y": 3
+        "y": -1
       },
       "dockingLocations": [
         {
           "coord": {
             "x": 1,
-            "y": 4
+            "y": -2
           },
           "direction": {
             "x": -1,
@@ -1033,8 +1055,8 @@
       "$type": "BuildingBotCreationDataInfo, Game",
       "creationDuration": 2.0,
       "floorCoord": {
-        "x": 1,
-        "y": 0
+        "x": 0,
+        "y": 1
       },
       "floorRotation": {
         "x": 1,
@@ -1045,15 +1067,7 @@
         "y": 0.0
       },
       "typeId": 47
-    },
-    {
-      "$type": "BuildingPortExpeditionDataInfo, Game",
-      "supportedExpeditionIds": [
-        0,
-        2
-      ],
-      "typeId": 32
     }
   ],
-  "category": 6
+  "category": 5
 }

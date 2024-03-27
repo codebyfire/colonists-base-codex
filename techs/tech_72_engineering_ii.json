@@ -1,5 +1,5 @@
 {
-  "vehicleSpeedIncreaseMultiplier": 1.5,
+  "vehicleSpeedIncreaseMultiplier": 1.4,
   "typeId": 72,
   "category": 8,
   "researchBuildingAges": [
@@ -30,6 +30,7 @@
   "researchTime": 450.0,
   "isAvailable": true,
   "isPreResearched": false,
+  "repeatAmount": 0,
   "gridPos": {
     "x": 0,
     "y": 0

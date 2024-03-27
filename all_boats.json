@@ -14,7 +14,8 @@
       "length": 3,
       "defaultMaximumDockedLength": 20,
       "validExpeditionBuildingHash": [
-        22
+        22,
+        71
       ],
       "componentInfos": [
         {
@@ -79,28 +80,6 @@
       "defaultMaximumDockedLength": 0,
       "validExpeditionBuildingHash": [],
       "componentInfos": [
-        {
-          "$type": "EntityStorageDataInfo, Game",
-          "storageType": 0,
-          "storageOffsets": [
-            {
-              "coord": {
-                "x": 0,
-                "y": 1
-              },
-              "height": 1,
-              "centreOffset": {
-                "x": 0.0,
-                "y": 0.0
-              },
-              "slotOffset": 0.2,
-              "heightOffset": 0.0,
-              "restrictedItemTypeId": 254,
-              "shelfItemSlotCount": 4
-            }
-          ],
-          "typeId": 3
-        },
         {
           "$type": "BoatLocomotorDataInfo, Game",
           "maxSpeed": 0.04,

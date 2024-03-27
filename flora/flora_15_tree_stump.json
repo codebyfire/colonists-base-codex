@@ -1,5 +1,6 @@
 {
   "category": 0,
+  "colourPaletteCategory": 1,
   "growthTime": -1.0,
   "initGrowth": 0.0,
   "maxSubPositionOffset": 0.3,
