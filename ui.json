@@ -1,55 +1,4 @@
 {
-  "constructionGridBuildingIds": [
-    41,
-    19,
-    38,
-    21,
-    66,
-    1,
-    2,
-    18,
-    13,
-    16,
-    15,
-    58,
-    67,
-    68,
-    75,
-    4,
-    20,
-    27,
-    25,
-    47,
-    50,
-    23,
-    26,
-    45,
-    30,
-    3,
-    11,
-    14,
-    51,
-    33,
-    34,
-    35,
-    57,
-    32,
-    36,
-    22,
-    63,
-    6,
-    69,
-    40,
-    77,
-    39,
-    61,
-    5,
-    65,
-    64,
-    60,
-    62,
-    49
-  ],
   "techCategoryOrderIds": [
     0,
     6,
@@ -247,6 +196,182 @@
       9,
       6,
       31
+    ]
+  },
+  "buildingWeightingsSpec": {
+    "buildingWeightings": [
+      {
+        "buildingTypeId": 41,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 19,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 38,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 21,
+        "weight": 300
+      },
+      {
+        "buildingTypeId": 66,
+        "weight": 400
+      },
+      {
+        "buildingTypeId": 1,
+        "weight": 500
+      },
+      {
+        "buildingTypeId": 2,
+        "weight": 600
+      },
+      {
+        "buildingTypeId": 18,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 13,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 16,
+        "weight": 300
+      },
+      {
+        "buildingTypeId": 15,
+        "weight": 400
+      },
+      {
+        "buildingTypeId": 58,
+        "weight": 500
+      },
+      {
+        "buildingTypeId": 67,
+        "weight": 600
+      },
+      {
+        "buildingTypeId": 68,
+        "weight": 700
+      },
+      {
+        "buildingTypeId": 4,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 20,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 27,
+        "weight": 300
+      },
+      {
+        "buildingTypeId": 25,
+        "weight": 400
+      },
+      {
+        "buildingTypeId": 47,
+        "weight": 500
+      },
+      {
+        "buildingTypeId": 50,
+        "weight": 600
+      },
+      {
+        "buildingTypeId": 23,
+        "weight": 700
+      },
+      {
+        "buildingTypeId": 26,
+        "weight": 800
+      },
+      {
+        "buildingTypeId": 45,
+        "weight": 900
+      },
+      {
+        "buildingTypeId": 30,
+        "weight": 1000
+      },
+      {
+        "buildingTypeId": 3,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 11,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 14,
+        "weight": 300
+      },
+      {
+        "buildingTypeId": 51,
+        "weight": 400
+      },
+      {
+        "buildingTypeId": 33,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 34,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 35,
+        "weight": 300
+      },
+      {
+        "buildingTypeId": 57,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 32,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 22,
+        "weight": 300
+      },
+      {
+        "buildingTypeId": 63,
+        "weight": 400
+      },
+      {
+        "buildingTypeId": 40,
+        "weight": 500
+      },
+      {
+        "buildingTypeId": 39,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 61,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 5,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 65,
+        "weight": 300
+      },
+      {
+        "buildingTypeId": 60,
+        "weight": 100
+      },
+      {
+        "buildingTypeId": 62,
+        "weight": 200
+      },
+      {
+        "buildingTypeId": 49,
+        "weight": 300
+      }
     ]
   },
   "isRailTunnelsEnabled": false

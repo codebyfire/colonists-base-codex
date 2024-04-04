@@ -1349,7 +1349,7 @@
       "isPerpendicular": false,
       "validTerrainTypes": [],
       "plantTimeFactor": 1.0,
-      "heightOccupation": -1,
+      "heightOccupation": 16,
       "isMapEditorPlaceable": false,
       "validTerrainCategoryHash": [],
       "customResourceYields": null,

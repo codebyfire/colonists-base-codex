@@ -3,7 +3,7 @@
   "unitHeightLeewayNeeded": 10,
   "maxAdjustFromCoreHeight": 20,
   "maxNeighbourCornerAdjust": 5,
-  "maxPathSlope": 10,
+  "maxPathSlope": 13,
   "maxBuildingSlope": 30,
   "maxTrackSlope": 16,
   "maxRoamSlope": 20,

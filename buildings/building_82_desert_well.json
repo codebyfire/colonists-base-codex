@@ -1,0 +1,503 @@
+{
+  "typeId": 82,
+  "ageComponentsDict": {
+    "LEVEL_1": [
+      {
+        "$type": "BuildingConstructionDataInfo, Game",
+        "time": 15.0,
+        "costs": [
+          {
+            "itemTypeId": 2,
+            "quantity": 2
+          },
+          {
+            "itemTypeId": 5,
+            "quantity": 4
+          }
+        ],
+        "energyCost": 0,
+        "requirements": [],
+        "typeId": 29
+      },
+      {
+        "$type": "BuildingProductionDataInfo, Game",
+        "processTime": 30.0,
+        "minProcessTime": -1.0,
+        "additionalTime": 0.0,
+        "itemStackGroupsProduced": [
+          {
+            "stacks": [
+              {
+                "itemTypeId": 12,
+                "quantity": 3
+              }
+            ],
+            "id": 0
+          }
+        ],
+        "miscCatProduced": 255,
+        "itemRequirements": [
+          {
+            "itemTypeId": 254,
+            "itemCategory": 0,
+            "animalTypeId": 255,
+            "naturalResourceTypeId": 255,
+            "individualNaturalResourceTypeId": 255,
+            "miscCatTypeId": 18,
+            "amount": 0
+          }
+        ],
+        "defaultProductionBalance": 50,
+        "isClearanceModeAvailable": false,
+        "displayProcessTime": 30.0,
+        "workerProductionSpeedBoostFactor": 1.0,
+        "activeDirtyType": 4,
+        "isRatioControlAvailable": true,
+        "storageHeightChanges": null,
+        "typeId": 21
+      },
+      {
+        "$type": "BuildingProximityLimitsDataInfo, Game",
+        "minDistance": 14,
+        "targetOffset": {
+          "x": 0,
+          "y": 2
+        },
+        "typeId": 124
+      }
+    ]
+  },
+  "baseOffsets": [
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 0
+      },
+      "requirements": [],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": true,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": -1
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 1
+      },
+      "requirements": [
+        {
+          "type": 30,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1
+          ],
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 1
+      },
+      "requirements": [
+        {
+          "type": 30,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1
+          ],
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 0,
+        "y": 2
+      },
+      "requirements": [
+        {
+          "type": 30,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1
+          ],
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
+    },
+    {
+      "type": 0,
+      "coord": {
+        "x": 1,
+        "y": 2
+      },
+      "requirements": [
+        {
+          "type": 30,
+          "compareType": 0,
+          "targetId": 0,
+          "matchIdHash": [
+            1
+          ],
+          "amount": 0
+        }
+      ],
+      "isOccupy": true,
+      "isOwnedTerritoryRequired": true,
+      "structureToCreate": 255,
+      "layerTypeToCreate": 255,
+      "customLayerHeights": null,
+      "autoAdjustType": 0,
+      "isPassable": false,
+      "sidesToAdjust": [],
+      "heightOffset": 0,
+      "isBypassSteepnessCheck": false,
+      "isBypassVerify": false,
+      "trackDirections": [],
+      "inaccessibleDirections": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "doesNeedUnoccupied": true,
+      "showFootprintHighlight": true,
+      "heightOccupation": -1,
+      "isPlatformTrack": false,
+      "territoryOwnershipRequirementType": 0
+    }
+  ],
+  "doesHeightRequireModulus2": false,
+  "customEntranceDirections": [],
+  "maxAmount": -1,
+  "unitPositions": [
+    {
+      "unitTypeId": 4,
+      "isInitial": false,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.3,
+        "subY": 0.4,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.3,
+        "subY": 0.4,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    },
+    {
+      "unitTypeId": 1,
+      "isInitial": true,
+      "homeLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": -0.2,
+        "subY": -0.2,
+        "rotationY": 0.0
+      },
+      "workLayerOffset": {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "subX": 0.0,
+        "subY": 0.0,
+        "rotationY": 0.0
+      },
+      "homeLayerOffsetDict": {},
+      "workLayerOffsetDict": {}
+    }
+  ],
+  "requirements": [],
+  "isAvailable": true,
+  "constructionSiteIdleLoc": {
+    "coord": {
+      "x": 0,
+      "y": 1
+    },
+    "subX": 0.0,
+    "subY": 0.3,
+    "rotationY": 0.0
+  },
+  "constructionSiteWorkerSubLocs": [
+    {
+      "coord": {
+        "x": 0,
+        "y": 2
+      },
+      "subX": 0.0,
+      "subY": -0.2,
+      "rotationY": 0.0
+    },
+    {
+      "coord": {
+        "x": 0,
+        "y": 2
+      },
+      "subX": 0.3,
+      "subY": -0.1,
+      "rotationY": 0.0
+    }
+  ],
+  "zzz_doesRequireLandOwnership": true,
+  "territoryOwnershipRequirementType": 0,
+  "componentInfos": [
+    {
+      "$type": "BuildingStorageConstructionIncomingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 7,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 1,
+            "y": 0
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 42
+    },
+    {
+      "$type": "BuildingStorageConstructionDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 5,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 0,
+            "y": 1
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.0,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 38
+    },
+    {
+      "$type": "BuildingStorageOutgoingDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 2,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 1,
+            "y": 0
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.2,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 26
+    },
+    {
+      "$type": "BuildingStorageProductionDataInfo, Game",
+      "isStorehouse": false,
+      "isAllowedRules": false,
+      "defaultMode": 0,
+      "startingItems": [],
+      "storageType": 4,
+      "storageOffsets": [
+        {
+          "coord": {
+            "x": 0,
+            "y": 1
+          },
+          "height": 3,
+          "centreOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "slotOffset": 0.0,
+          "heightOffset": 0.0,
+          "restrictedItemTypeId": 254,
+          "shelfItemSlotCount": 4
+        }
+      ],
+      "typeId": 37
+    }
+  ],
+  "category": 1
+}
